@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Pacmon Labs | Contact</title>
+</head>
+<body class="text-slate-200 antialiased selection:bg-cyan-500 selection:text-slate-900">
+    <div id="shared-nav"></div>
+
+    <main class="pt-28">
+        <section class="max-w-7xl mx-auto px-6 pb-20">
+            <div class="space-y-6 text-center">
+                <p class="text-xs uppercase tracking-[0.35em] text-cyan-300">Contact</p>
+                <h1 class="text-5xl md:text-6xl font-black text-white">Start the conversation.</h1>
+                <p class="max-w-3xl mx-auto text-slate-400">Get the info you need quickly with a dedicated contact page and easy navigation.</p>
+            </div>
+
+            <div class="mt-12">
+                <div class="flex flex-wrap gap-3 justify-center mb-8">
+                    <button class="tab-button active" data-section="contact" data-tab="email">Email</button>
+                    <button class="tab-button" data-section="contact" data-tab="location">Location</button>
+                    <button class="tab-button" data-section="contact" data-tab="process">How we work</button>
+                </div>
+
+                <div class="tab-panel active" data-section="contact" data-tab="email">
+                    <div class="glass-panel neon-border rounded-[2rem] p-10">
+                        <h2 class="text-3xl font-semibold text-white mb-4">Email</h2>
+                        <p class="text-slate-400 mb-4">Reach out to start a project conversation or ask about our work.</p>
+                        <a href="mailto:pacman.labs@gmail.com" class="text-cyan-300 font-semibold hover:text-cyan-200">pacman.labs@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="tab-panel" data-section="contact" data-tab="location">
+                    <div class="glass-panel neon-border rounded-[2rem] p-10">
+                        <h2 class="text-3xl font-semibold text-white mb-4">Location</h2>
+                        <p class="text-slate-400 mb-4">Based in Tiruppur, India, with a focus on distributed security and engineering teams.</p>
+                        <p class="text-slate-300 font-semibold">Tiruppur, India</p>
+                    </div>
+                </div>
+
+                <div class="tab-panel" data-section="contact" data-tab="process">
+                    <div class="glass-panel neon-border rounded-[2rem] p-10">
+                        <h2 class="text-3xl font-semibold text-white mb-4">How we work</h2>
+                        <p class="text-slate-400 mb-4">Quick intro calls, clear proposals, and collaborative delivery so every step stays easy to follow.</p>
+                        <ul class="list-disc list-inside space-y-3 text-slate-400">
+                            <li>Start with a discovery call.</li>
+                            <li>Review the technical proposal.</li>
+                            <li>Begin secure delivery and handoff.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="shared-footer"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+﻿function switchTab(section, tab) {
+    const buttons = document.querySelectorAll(`[data-section="${section}"]`);
+    buttons.forEach(button => {
+        button.classList.toggle('active', button.dataset.tab === tab);
+    });
+
+    const panels = document.querySelectorAll(`.tab-panel[data-section="${section}"]`);
+    panels.forEach(panel => {
+        panel.classList.toggle('active', panel.dataset.tab === tab);
+    });
+}
+
+const NAV_ITEMS = [
+    { href: '/index.html', label: 'Home' },
+    { href: '/about.html', label: 'About' },
+    { href: '/services.html', label: 'Services' },
+    { href: '/projects.html', label: 'Projects' },
+    { href: '/wiki.html', label: 'Wiki' },
+    { href: '/team.html', label: 'Team' },
+    { href: '/students.html', label: 'Students' },
+    { href: '/contact.html', label: 'Contact' }
+];
+
+function createNav() {
+    const fragment = document.createDocumentFragment();
+    const nav = document.createElement('nav');
+    nav.className = 'fixed inset-x-0 top-0 z-50 py-4 glass-panel shadow-lg shadow-slate-950/20 backdrop-blur-xl';
+
+    const inner = document.createElement('div');
+    inner.className = 'max-w-7xl mx-auto px-6 flex items-center justify-between gap-4';
+
+    const brand = document.createElement('a');
+    brand.href = '/index.html';
+    brand.className = 'flex items-center gap-3 nav-link';
+    brand.innerHTML = `<span class="w-3 h-3 rounded-full bg-cyan-400 pulse-dot"></span><span class="text-white font-bold tracking-widest text-sm">PACMON</span>`;
+
+    const linksWrap = document.createElement('div');
+    linksWrap.className = 'hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-[0.2em] text-slate-300';
+
+    NAV_ITEMS.forEach(item => {
+        const a = document.createElement('a');
+        a.href = item.href;
+        a.className = 'nav-link';
+        a.textContent = item.label;
+        linksWrap.appendChild(a);
+    });
+
+    const cta = document.createElement('a');
+    cta.href = 'mailto:pacman.labs@gmail.com';
+    cta.className = 'rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm font-semibold text-cyan-300 hover:bg-cyan-500 hover:text-slate-950 transition';
+    cta.textContent = 'Start a Project';
+
+    inner.appendChild(brand);
+    inner.appendChild(linksWrap);
+    inner.appendChild(cta);
+    nav.appendChild(inner);
+    fragment.appendChild(nav);
+    return fragment;
+}
+
+function createFooter() {
+    const footer = document.createElement('footer');
+    footer.className = 'border-t border-slate-800 py-8 text-center footer-text text-sm font-mono';
+    footer.innerHTML = '<p>Pacmon Labs © 2026 — Modern security delivered with clarity.</p>';
+    return footer;
+}
+
+function markActiveNav() {
+    const current = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    document.querySelectorAll('#shared-nav a.nav-link').forEach(link => {
+        try {
+            const href = link.getAttribute('href') || '';
+            const hrefName = href.split('/').pop().split('#')[0].toLowerCase();
+            if (hrefName === current || (hrefName === 'index.html' && current === '')) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        } catch (e) {
+            // ignore malformed hrefs
+        }
+    });
+}
+
+function insertSharedLayout() {
+    const navContainer = document.getElementById('shared-nav');
+    if (navContainer && navContainer.children.length === 0) {
+        navContainer.appendChild(createNav());
+    }
+
+    const footerContainer = document.getElementById('shared-footer');
+    if (footerContainer && footerContainer.children.length === 0) {
+        footerContainer.appendChild(createFooter());
+    }
+
+    markActiveNav();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    insertSharedLayout();
+
+    // Event delegation for tab buttons to avoid attaching many listeners
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.tab-button');
+        if (!btn) return;
+        const section = btn.dataset.section;
+        const tab = btn.dataset.tab;
+        if (section && tab) switchTab(section, tab);
+    });
+});

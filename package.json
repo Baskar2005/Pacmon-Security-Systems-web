@@ -1,0 +1,14 @@
+{
+  "name": "pacmon-news-aggregator",
+  "version": "1.0.0",
+  "description": "Simple news aggregator to produce news/data.json for Pacmon site",
+  "main": "scripts/fetchNews.js",
+  "scripts": {
+    "fetch-news": "node scripts/fetchNews.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.12.0",
+    "node-fetch": "^2.6.7",
+    "sanitize-html": "^2.11.0"
+  }
+}

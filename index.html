@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pacmon Labs — Corporate-technical cybersecurity and software lab.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Pacmon Labs | Home</title>
+  <style>
+    @keyframes pulseGlow { 0% { box-shadow: 0 0 0px rgba(6,182,212,0.0); } 50% { box-shadow: 0 0 12px rgba(6,182,212,0.06); } 100% { box-shadow: 0 0 0px rgba(6,182,212,0.0); } }
+    .animate-pulse-glow { animation: pulseGlow 2.2s ease-in-out infinite; }
+    @keyframes growY { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    .animate-timeline { animation: growY 1s cubic-bezier(.2,.9,.2,1) forwards; transform-origin: top; }
+    #timeline-line { transform: scaleY(0); transform-origin: top; }
+    .timeline-marker { transform: scale(0); }
+    @keyframes pop { from { transform: scale(0); } to { transform: scale(1); } }
+    .animate-marker { animation: pop .28s cubic-bezier(.2,.9,.2,1) forwards; }
+    /* Big-bang timeline animations */
+    @keyframes nodePop { from { transform: scale(0); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    .node-pop { transform: scale(0); opacity: 0; animation: nodePop .45s cubic-bezier(.2,.9,.2,1) forwards; }
+    .branch-line { stroke-dasharray: 300; stroke-dashoffset: 300; animation: drawLine .9s ease forwards; animation-delay: .15s; }
+    @keyframes drawLine { to { stroke-dashoffset: 0; } }
+    .branch-card { transform: translateY(8px); opacity: 0; }
+    @keyframes fadeUp { to { transform: translateY(0); opacity: 1; } }
+    .branch-card.show { animation: fadeUp .45s ease forwards; }
+
+    /* Reveal on-scroll helper */
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease; }
+    .reveal.reveal-show { opacity: 1; transform: translateY(0); }
+
+    /* Hero typewriter */
+    .hero-animated-letter { display:inline-block; opacity:0; transform: translateY(6px); color:transparent; background-clip:text; -webkit-background-clip:text; }
+    .hero-cursor { display:inline-block; margin-left:6px; color: #06b6d4; opacity:1; animation: blink 1s steps(2, start) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    /* Methodology bubble/connectors */
+    .method-wrap { position: relative; }
+    .method-svg { position: absolute; inset: 0; pointer-events: none; }
+    .bubble-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; }
+    .bubble-card { display:flex; gap:12px; align-items:flex-start; padding:18px; border-radius:14px; box-shadow: none; }
+    .bubble-badge { width:54px; height:54px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-weight:700; }
+    @media (max-width: 768px) {
+      .bubble-row { grid-template-columns: 1fr; }
+      .method-svg { display:none; }
+    }
+  </style>
+</head>
+<body class="bg-[#020617] text-slate-300 antialiased font-sans">
+  <div id="shared-nav"></div>
+
+  <!-- Background blob layer (fixed, behind content) -->
+  <div class="fixed inset-0 -z-10 pointer-events-none">
+    <div class="hidden sm:block absolute -left-40 -top-40 w-[900px] h-[900px] rounded-full bg-gradient-to-br from-[#021021] via-[#042b35] to-[#021827] opacity-30 blur-2xl"></div>
+    <div class="absolute right-[-200px] top-1/4 w-[600px] h-[600px] rounded-full bg-gradient-to-tr from-[#062033] via-[#04313b] to-[#021021] opacity-20 blur-xl"></div>
+  </div>
+
+  <main>
+
+    <!-- Hero: ParrotOS-inspired -->
+    <section class="w-full py-16">
+      <div class="max-w-[1440px] mx-auto px-6">
+        <div class="text-center py-20">
+          <!-- Announcement removed per request -->
+
+          <h1 class="text-4xl md:text-5xl font-extrabold tracking-tighter leading-tight text-white">The service you can Improve Your Bussiness</h1>
+
+          <p class="mt-6 text-slate-400">The ultimate framework for your Cybersecurity operations</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company Timeline & Tech Stack -->
+    <section class="w-full py-16">
+      <div class="max-w-[1440px] mx-auto px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+          <!-- Minimal, future-proof timeline (spans two cols on large) -->
+          <div class="lg:col-span-2 bg-[#07101a] border border-slate-800 p-8 rounded-2xl relative transition-all duration-200 hover:border-cyan-500 hover:shadow-[0_0_10px_rgba(6,182,212,0.2)]">
+            <h2 class="text-2xl font-semibold tracking-tight text-[#06b6d4]">Company Timeline</h2>
+            <div class="mt-6">
+              <div class="max-w-4xl mx-auto">
+                <div class="flex items-start gap-6">
+                  <div class="flex-shrink-0">
+                    <div class="w-16 h-16 rounded-full bg-[#06b6d4] flex items-center justify-center border border-slate-900">
+                      <svg class="w-6 h-6 text-[#0b1120]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                  </div>
+
+                  <div class="flex-1">
+                    <div class="text-xs font-mono text-[#06b6d4]">Started Jun 10, 2026</div>
+                     <h3 class="mt-1 font-semibold text-slate-200">Start form Scratch</h3>
+                    <p class="mt-2 leading-relaxed text-slate-300 max-w-4xl">It was the start of inovations</p>
+
+                    <!-- Placeholder for future milestones; can be populated manually or via scripts.js -->
+                    <ol id="timeline-items" class="mt-6 border-l border-slate-700 pl-6 space-y-6">
+                      <!-- Future milestones go here -->
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tech Stack -->
+          <div class="bg-[#07101a] border border-slate-800 p-8 rounded-2xl transition-all duration-200 hover:border-cyan-500 hover:shadow-[0_0_10px_rgba(6,182,212,0.2)]">
+            <h2 class="text-2xl font-semibold tracking-tight text-[#06b6d4]">Tech Stack</h2>
+            <div class="mt-4 flex flex-wrap gap-3">
+              <span class="bg-slate-800 text-[10px] uppercase tracking-wider px-2 py-1 font-mono rounded">node</span>
+              <span class="bg-slate-800 text-[10px] uppercase tracking-wider px-2 py-1 font-mono rounded">postgres</span>
+              <span class="bg-slate-800 text-[10px] uppercase tracking-wider px-2 py-1 font-mono rounded">docker</span>
+              <span class="bg-slate-800 text-[10px] uppercase tracking-wider px-2 py-1 font-mono rounded">tailwind</span>
+              <span class="bg-slate-800 text-[10px] uppercase tracking-wider px-2 py-1 font-mono rounded">cicd</span>
+              <span class="bg-slate-800 text-[10px] uppercase tracking-wider px-2 py-1 font-mono rounded">prometheus</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Methodology Visualization -->
+    <section class="w-full py-16">
+      <div class="max-w-[1440px] mx-auto px-6">
+        <h2 class="text-2xl font-semibold tracking-tight text-[#06b6d4]">Methodology</h2>
+        <div class="mt-8 method-wrap">
+          <svg class="method-svg" viewBox="0 0 1200 220" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.12"/>
+                <stop offset="100%" stop-color="#00fff0" stop-opacity="0.06"/>
+              </linearGradient>
+            </defs>
+            <path d="M60 110 C220 20, 380 20, 540 110 C700 200, 860 200, 1020 110" stroke="url(#g1)" stroke-width="6" fill="none" stroke-linecap="round"/>
+          </svg>
+
+          <div class="bubble-row">
+            <div class="bubble-card bg-[#07101a] border border-slate-800">
+              <div class="bubble-badge bg-gradient-to-br from-cyan-500 to-blue-500 text-white">01</div>
+              <div>
+                <h3 class="font-semibold text-white">Discovery</h3>
+                <p class="mt-1 text-sm text-slate-400">Understand context, constraints, and current risk profile through focused interviews and lightweight scans.</p>
+              </div>
+            </div>
+
+            <div class="bubble-card bg-[#07101a] border border-slate-800">
+              <div class="bubble-badge bg-gradient-to-br from-cyan-500 to-blue-500 text-white">02</div>
+              <div>
+                <h3 class="font-semibold text-white">Assessment</h3>
+                <p class="mt-1 text-sm text-slate-400">Prioritize findings into an actionable backlog that balances risk, effort, and business impact.</p>
+              </div>
+            </div>
+
+            <div class="bubble-card bg-[#07101a] border border-slate-800">
+              <div class="bubble-badge bg-gradient-to-br from-cyan-500 to-blue-500 text-white">03</div>
+              <div>
+                <h3 class="font-semibold text-white">Hardening</h3>
+                <p class="mt-1 text-sm text-slate-400">Apply targeted controls, automation, and infrastructure-as-code to reduce attack surface and recurring toil.</p>
+              </div>
+            </div>
+
+            <div class="bubble-card bg-[#07101a] border border-slate-800">
+              <div class="bubble-badge bg-gradient-to-br from-cyan-500 to-blue-500 text-white">04</div>
+              <div>
+                <h3 class="font-semibold text-white">Monitoring</h3>
+                <p class="mt-1 text-sm text-slate-400">Instrument, alert, and codify runbooks so incidents are handled reliably with minimum cognitive load.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daily News & Updates panel (Parrot-OS Standard) -->
+    <section class="w-full py-16">
+      <div class="max-w-[1440px] mx-auto px-6">
+        <h2 class="text-2xl font-semibold tracking-tight gradient-text">Daily News & Updates</h2>
+        <p class="text-slate-300 mt-2">Curated, brief headlines from trusted sources — updated live.</p>
+
+        <div class="mt-8">
+          <div class="flex items-center justify-between gap-4 mb-6">
+            <div class="flex flex-wrap gap-3">
+              <button data-filter="all" class="filter-btn px-3 py-2 text-xs font-mono text-slate-300 bg-slate-900/20 rounded bg-slate-800">All</button>
+              <button data-filter="it" class="filter-btn px-3 py-2 text-xs font-mono text-slate-300 bg-slate-900/20 rounded">IT</button>
+              <button data-filter="ai" class="filter-btn px-3 py-2 text-xs font-mono text-slate-300 bg-slate-900/20 rounded">AI</button>
+              <button data-filter="security" class="filter-btn px-3 py-2 text-xs font-mono text-slate-300 bg-slate-900/20 rounded">Cybersecurity</button>
+            </div>
+            <div class="text-sm text-slate-400">Updated: <span id="news-updated">--</span></div>
+          </div>
+
+          <div id="news-panel" class="bg-[#0b1120] border border-slate-800 rounded-lg p-6">
+            <div id="news-list" class="grid grid-cols-1 md:grid-cols-3 gap-6" aria-live="polite">
+              <!-- Skeleton / items injected by JS -->
+              <div class="col-span-1 bg-[#0b1120] border border-slate-800 rounded-lg p-6 animate-pulse">
+                <div class="h-40 bg-slate-800 rounded mb-4"></div>
+                <div class="h-4 bg-slate-800 rounded w-3/4 mb-2"></div>
+                <div class="h-3 bg-slate-800 rounded w-1/2"></div>
+              </div>
+              <div class="col-span-1 bg-[#0b1120] border border-slate-800 rounded-lg p-6 animate-pulse">
+                <div class="h-40 bg-slate-800 rounded mb-4"></div>
+                <div class="h-4 bg-slate-800 rounded w-3/4 mb-2"></div>
+                <div class="h-3 bg-slate-800 rounded w-1/2"></div>
+              </div>
+              <div class="col-span-1 bg-[#0b1120] border border-slate-800 rounded-lg p-6 animate-pulse">
+                <div class="h-40 bg-slate-800 rounded mb-4"></div>
+                <div class="h-4 bg-slate-800 rounded w-3/4 mb-2"></div>
+                <div class="h-3 bg-slate-800 rounded w-1/2"></div>
+              </div>
+            </div>
+            <div class="mt-4 text-right">
+              <button id="news-loadmore" class="px-3 py-1 text-xs font-mono text-slate-300 bg-slate-800 rounded border border-slate-700">Load more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="shared-footer"></div>
+  <script src="scripts.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var line = document.getElementById('timeline-line');
+      if (line) {
+        line.classList.add('animate-timeline');
+        // after the vertical line animates, pop the markers with a slight stagger
+        setTimeout(function () {
+          var markers = document.querySelectorAll('.timeline-marker');
+          markers.forEach(function (m, i) {
+            setTimeout(function () { m.classList.add('animate-marker'); }, i * 120);
+          });
+        }, 500);
+      }
+      // animate big-bang node and branch cards
+      var node = document.querySelector('.node-pop');
+      if (node) node.classList.add('node-pop');
+      var cards = document.querySelectorAll('.branch-card');
+      cards.forEach(function (c, i) {
+        setTimeout(function () { c.classList.add('show'); }, 600 + i * 140);
+      });
+
+      // Reveal-on-scroll initializer for elements with .reveal
+      function revealOnScroll() {
+        var reveals = document.querySelectorAll('.reveal');
+        var viewportTop = window.scrollY;
+        var viewportBottom = viewportTop + window.innerHeight;
+        reveals.forEach(function (el) {
+          var rect = el.getBoundingClientRect();
+          var elTop = rect.top + window.scrollY;
+          if (elTop < viewportBottom - 60) {
+            el.classList.add('reveal-show');
+          }
+        });
+      }
+      revealOnScroll();
+      window.addEventListener('scroll', revealOnScroll, { passive: true });
+
+      // hero typewriter removed
+
+      // News panel: daily-rotating curated headlines (client-side)
+      (function initNewsPanel(){
+        var FALLBACK_ITEMS = [
+          {id:'open-source-llm-toolkit',title:'Open-source LLM toolkit reaches stable 1.0',cat:'ai',summary:'New releases simplify fine-tuning and deployment for edge devices.',url:'news/open-source-llm-toolkit.html',image:'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=800&q=60'},
+          {id:'critical-cve-patched',title:'Critical CVE patched in popular web server',cat:'security',summary:'Maintenance update recommended for exposed endpoints.',url:'news/critical-cve-patched.html',image:'https://images.unsplash.com/photo-1555988052-2af8b4a8d1a6?w=800&q=60'},
+          {id:'enterprise-backup-2026',title:'Enterprise backup best practices for 2026',cat:'it',summary:'Automated validation of snapshots reduces restore failure rates.',url:'news/enterprise-backup-2026.html',image:'https://images.unsplash.com/photo-1581090462359-84b6f5a6a3d6?w=800&q=60'},
+          {id:'federated-learning-patterns',title:'Federated learning patterns for privacy-preserving models',cat:'ai',summary:'Approaches that keep data local while improving models.',url:'news/federated-learning-patterns.html',image:'https://images.unsplash.com/photo-1581093588401-0d8f8f6b0b8a?w=800&q=60'},
+          {id:'zero-trust-smbs',title:'Zero-trust adoption rises among SMBs',cat:'security',summary:'Low-cost network segmentation proves effective in early deployments.',url:'news/zero-trust-smbs.html',image:'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=60'},
+          {id:'k8s-cost-optimization',title:'Kubernetes cost optimization tactics',cat:'it',summary:'Rightsizing and spot instances can cut monthly bills significantly.',url:'news/k8s-cost-optimization.html',image:'https://images.unsplash.com/photo-1508873535684-277a3cbccfb6?w=800&q=60'}
+        ];
+        var NEWS_ITEMS = [];
+
+        // helper to load feed and trigger render
+        function loadFeed(){
+          fetch('/news/data.json', {cache: 'no-store'}).then(function(r){
+            if(!r.ok) throw new Error('no feed');
+            return r.json();
+          }).then(function(data){
+            if(Array.isArray(data) && data.length) NEWS_ITEMS = data;
+            else NEWS_ITEMS = FALLBACK_ITEMS.slice();
+            render(currentFilter || 'all');
+            document.getElementById('news-updated').textContent = new Date().toLocaleString();
+          }).catch(function(){
+            NEWS_ITEMS = FALLBACK_ITEMS.slice();
+            render(currentFilter || 'all');
+          });
+        }
+
+        // poll for new data every 5 minutes
+        var POLL_MS = 5 * 60 * 1000;
+        var pollHandle = null;
+        var currentFilter = 'all';
+        loadFeed();
+        pollHandle = setInterval(loadFeed, POLL_MS);
+
+        var listEl = document.getElementById('news-list');
+        var updatedEl = document.getElementById('news-updated');
+        var loadMore = document.getElementById('news-loadmore');
+        var filterBtns = document.querySelectorAll('.filter-btn');
+        // Trusted domains - only load external news that are HTTPS and belong here
+        var TRUSTED_DOMAINS = [
+          'news.ycombinator.com', 'www.theverge.com', 'www.nytimes.com', 'arxiv.org', 'www.schneier.com', 'www.us-cert.gov', 'nvd.nist.gov', 'www.bleepingcomputer.com', 'www.zdnet.com'
+        ];
+
+        function isTrustedUrl(u){
+          try{
+            var parsed = new URL(u, location.href);
+            if(parsed.protocol !== 'https:') return false;
+            var host = parsed.hostname.toLowerCase();
+            return TRUSTED_DOMAINS.indexOf(host) !== -1;
+          }catch(e){return false;}
+        }
+
+        function seedIndex(){
+          // deterministic daily rotation based on date
+          var days = Math.floor(new Date().getTime() / (1000*60*60*24));
+          if(!NEWS_ITEMS || NEWS_ITEMS.length===0) return 0;
+          return days % NEWS_ITEMS.length;
+        }
+
+        function render(filter, showAll){
+          listEl.innerHTML = '';
+          var start = seedIndex();
+          var shown = 0;
+          var limit = showAll ? NEWS_ITEMS.length : 6;
+          for(var i=0;i<NEWS_ITEMS.length;i++){
+            if(shown>=limit) break;
+            var item = NEWS_ITEMS[(start + i) % NEWS_ITEMS.length];
+            if(filter && filter!=='all' && item.cat!==filter) continue;
+            // only allow internal news pages or trusted external hosts
+            var allow = (item.url && (item.url.startsWith('news/') || isTrustedUrl(item.url)));
+            if(!allow) continue;
+
+            var card = document.createElement('article');
+            card.className = 'bg-[#0b1120] border border-slate-800 rounded-lg p-6 hover:border-cyan-500 transition-all';
+
+            var linkAttrs = item.url && item.url.startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : '';
+            var linkStart = '<a href="'+item.url+'" class="block no-underline"'+linkAttrs+'>';
+
+            var imgHtml = '';
+            if(item.image){
+              imgHtml = '<div class="w-full h-40 overflow-hidden rounded mb-4 bg-slate-900"><img src="'+item.image+'" alt="'+item.title+'" class="w-full h-full object-cover"></div>';
+            }
+
+            var badge = '<div class="text-[10px] uppercase font-mono tracking-widest text-cyan-500">'+(item.cat||'')+'</div>';
+            var date = '<div class="text-xs font-mono text-slate-400 mt-2">'+(item.pubDate ? new Date(item.pubDate).toLocaleDateString() : new Date().toLocaleDateString())+'</div>';
+
+            var titleHtml = '<h3 class="font-semibold text-white leading-tight">'+item.title+'</h3>';
+            var summaryHtml = '<p class="mt-2 text-sm text-slate-300 leading-relaxed">'+(item.summary||'')+'</p>';
+
+            card.innerHTML = linkStart + imgHtml + '<div>'+badge+titleHtml+date+summaryHtml+'</div></a>';
+            listEl.appendChild(card);
+            shown++;
+          }
+          updatedEl.textContent = new Date().toLocaleString();
+        }
+
+        // mark first filter as active and wire filter buttons (uses currentFilter)
+        var currentFilter = 'all';
+        if(filterBtns && filterBtns.length) filterBtns[0].classList.add('bg-slate-800');
+        filterBtns.forEach(function(b){
+          b.addEventListener('click', function(){
+            filterBtns.forEach(x=>x.classList.remove('bg-slate-800'));
+            this.classList.add('bg-slate-800');
+            currentFilter = this.dataset.filter;
+            render(currentFilter);
+          });
+        });
+
+        if(loadMore) loadMore.addEventListener('click', function(){
+          // reveal full list (no pagination here)
+          render(currentFilter, /*showAll=*/true);
+        });
+
+        // Dynamic loader: async/await pattern with skeleton and error handling
+        async function loadFeed(){
+          // show skeleton
+          var skeletons = '';
+          for(var s=0;s<3;s++){
+            skeletons += '<div class="col-span-1 bg-[#0b1120] border border-slate-800 rounded-lg p-6 animate-pulse"><div class="h-40 bg-slate-800 rounded mb-4"></div><div class="h-4 bg-slate-800 rounded w-3/4 mb-2"></div><div class="h-3 bg-slate-800 rounded w-1/2"></div></div>';
+          }
+          listEl.innerHTML = skeletons;
+          try{
+            const res = await fetch('/news/data.json', {cache:'no-store'});
+            if(!res.ok) throw new Error('_ERROR_CONNECTION_FAILED HTTP_'+res.status);
+            const data = await res.json();
+            NEWS_ITEMS = Array.isArray(data) && data.length ? data : NEWS_ITEMS;
+            render(currentFilter);
+            updatedEl.textContent = new Date().toLocaleString();
+          }catch(err){
+            listEl.innerHTML = '<div class="col-span-1 text-red-400 font-mono">_ERROR_CONNECTION_FAILED '+(err.message||'')+'</div>';
+            updatedEl.textContent = '';
+          }
+        }
+
+        // initial load + polling
+        loadFeed();
+        var poll = setInterval(loadFeed, 5*60*1000);
+      })();
+    });
+  </script>
+</body>
+</html>

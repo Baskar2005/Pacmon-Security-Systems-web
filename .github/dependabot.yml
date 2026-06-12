@@ -1,0 +1,17 @@
+# Dependabot configuration for Pacmon Labs automated dependency monitoring
+version: 2
+updates:
+  # 1. Track Node.js / npm dependencies for the news aggregator pipeline
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily" # Daily checks ensure rapid patching of security vulnerabilities
+    open-pull-requests-limit: 5
+    target-branch: "main"
+
+  # 2. Track GitHub Actions to keep CI/CD automation secure and up-to-date
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3

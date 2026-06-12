@@ -1,8 +1,1802 @@
 [
-  {"id":"open-source-llm-toolkit","title":"Open-source LLM toolkit reaches stable 1.0","cat":"ai","summary":"New releases simplify fine-tuning and deployment for edge devices.","url":"news/open-source-llm-toolkit.html","image":"https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=800&q=60"},
-  {"id":"critical-cve-patched","title":"Critical CVE patched in popular web server","cat":"security","summary":"Maintenance update recommended for exposed endpoints.","url":"news/critical-cve-patched.html","image":"https://images.unsplash.com/photo-1555988052-2af8b4a8d1a6?w=800&q=60"},
-  {"id":"enterprise-backup-2026","title":"Enterprise backup best practices for 2026","cat":"it","summary":"Automated validation of snapshots reduces restore failure rates.","url":"news/enterprise-backup-2026.html","image":"https://images.unsplash.com/photo-1581090462359-84b6f5a6a3d6?w=800&q=60"},
-  {"id":"federated-learning-patterns","title":"Federated learning patterns for privacy-preserving models","cat":"ai","summary":"Approaches that keep data local while improving models.","url":"news/federated-learning-patterns.html","image":"https://images.unsplash.com/photo-1581093588401-0d8f8f6b0b8a?w=800&q=60"},
-  {"id":"zero-trust-smbs","title":"Zero-trust adoption rises among SMBs","cat":"security","summary":"Low-cost network segmentation proves effective in early deployments.","url":"news/zero-trust-smbs.html","image":"https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=60"},
-  {"id":"k8s-cost-optimization","title":"Kubernetes cost optimization tactics","cat":"it","summary":"Rightsizing and spot instances can cut monthly bills significantly.","url":"news/k8s-cost-optimization.html","image":"https://images.unsplash.com/photo-1508873535684-277a3cbccfb6?w=800&q=60"}
+  {
+    "id": "https___www.theverge.com_ai-artificial-intelligence_949005_jeff-bezos-prometheus",
+    "title": "Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’",
+    "cat": "it",
+    "summary": "Amazon founder Jeff Bezos says his new AI startup will work toward developing an \"artificial general engineer,\" according to reports from The New York Times and CNBC. The startup, called Prometheus, aims to develop AI-powered engineering...",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
+    "image": "",
+    "pubDate": "2026-06-12T14:03:39.000Z"
+  },
+  {
+    "id": "df0786fa-e48e-4507-af0a-f0871d1ee977",
+    "title": "I'd recommend this TCL Mini LED TV that's $1,000 off over premium Samsung and LG models",
+    "cat": "security",
+    "summary": "The TCL QM8L offers gorgeous picture quality with rich audio to match, and you can save big on one right now.",
+    "url": "https://www.zdnet.com/article/tcl-qm8l-best-buy-deal/",
+    "image": "",
+    "pubDate": "2026-06-12T13:59:00.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_science_947926_spacex-ipo-stock-shares-trading-elon-mus",
+    "title": "SpaceX is now public",
+    "cat": "it",
+    "summary": "SpaceX is now a publicly traded company. In one of the most highly anticipated and controversial public offerings of all time, the rocket venture helmed by Elon Musk started trading on Nasdaq on June 12th at the take-it-or-leave-it price...",
+    "url": "https://www.theverge.com/science/947926/spacex-ipo-stock-shares-trading-elon-musk",
+    "image": "",
+    "pubDate": "2026-06-12T13:54:49.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_gadgets_943057_ooni-portable-pizza-oven-is-great-for-bb",
+    "title": "Sorry, the Ooni pizza oven is totally worth it",
+    "cat": "it",
+    "summary": "Summer is approaching, which means it's time to enjoy some gloriously warm weather beside the grill. But let me pitch you on an alternative: Instead of the usual burgers, hot dogs, and kebabs, what if you made pizza? I've been doing this...",
+    "url": "https://www.theverge.com/gadgets/943057/ooni-portable-pizza-oven-is-great-for-bbqs",
+    "image": "",
+    "pubDate": "2026-06-12T13:30:00.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_transportation_948635_bmw-neue-klasse-m-concept-motorsp",
+    "title": "BMW’s Neue Klasse M concept brings next-gen EV tech to motorsports",
+    "cat": "it",
+    "summary": "Just in time for Le Mans, BMW is pulling the cover off its new M performance concept built on the Bavarian automaker's Neue Klasse next-generation architecture. The concept is the debut of a new design language for BMW's M division, sign...",
+    "url": "https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev",
+    "image": "",
+    "pubDate": "2026-06-12T13:00:00.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_games_942678_nintendo-ds-rules-for-travel",
+    "title": "The Nintendo DS is still the best gaming handheld for travel",
+    "cat": "it",
+    "summary": "Even with the looming specter of rising prices, there's never been a better time for portable gaming. The Steam Deck has ushered in a new era of handheld PCs, the Analogue Pocket and other Game Boy-style remakes are making retro games mo...",
+    "url": "https://www.theverge.com/games/942678/nintendo-ds-rules-for-travel",
+    "image": "",
+    "pubDate": "2026-06-12T12:30:00.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_tech_942658_summer-upgrade-week-2026",
+    "title": "Summer Upgrade Week",
+    "cat": "it",
+    "summary": "The sun is out, the sky is clear. It’s time to get outside and disconnect — from work, at least. This summer, we’re looking at all the ways to upgrade our free time indoors and out, from smart lights for the backyard to great gadgets to ...",
+    "url": "https://www.theverge.com/tech/942658/summer-upgrade-week-2026",
+    "image": "",
+    "pubDate": "2026-06-12T12:30:00.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_tech_942932_portable-light-camping-work-travel",
+    "title": "This portable light is great for way more than camping",
+    "cat": "it",
+    "summary": "It's intended for camping, but BougeRV's T1 light is so versatile that it also makes for a great summer travel companion that'll continue to light the dark corners of your life long after you return. I used it for a few months during a r...",
+    "url": "https://www.theverge.com/tech/942932/portable-light-camping-work-travel",
+    "image": "",
+    "pubDate": "2026-06-12T11:30:00.000Z"
+  },
+  {
+    "id": "https___www.schneier.com_blog_archives_2026_06_bernie-sanders-ai-sovereign-wealt",
+    "title": "Bernie Sanders’ AI Sovereign Wealth Fund Plan",
+    "cat": "security",
+    "summary": "Let no one accuse Bernie Sanders of ducking the big questions. Writing in the New York Times last week, the senator asked: “Will the future of humanity be determined by a handful of billionaires who have promoted and developed AI, with v...",
+    "url": "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html",
+    "image": "",
+    "pubDate": "2026-06-12T11:03:17.000Z"
+  },
+  {
+    "id": "af537cdf-5604-423e-b232-a01734faf5ce",
+    "title": "6 Android Auto apps that are essential when I'm off-roading - and most are free",
+    "cat": "security",
+    "summary": "Android Auto isn't just for city streets anymore. Here are the apps that help me get more done on road trips.",
+    "url": "https://www.zdnet.com/article/6-android-auto-apps-let-explore-the-outdoors/",
+    "image": "",
+    "pubDate": "2026-06-12T11:00:00.000Z"
+  },
+  {
+    "id": "bade04d7-f6b8-4c95-b9ab-f11b4c890175",
+    "title": "Dell vs. HP: I've tested dozens of laptops from both brands, and here's my buying advice",
+    "cat": "security",
+    "summary": "Dell and HP both make excellent laptops, but each excels in different areas. Here are the key differences.",
+    "url": "https://www.zdnet.com/article/hp-vs-dell-laptops-comparison/",
+    "image": "",
+    "pubDate": "2026-06-12T10:54:00.000Z"
+  },
+  {
+    "id": "dbab9754-5402-4e99-86ce-c2e5ac251f71",
+    "title": "I've tested solar power at home for years - 12 myths you shouldn't fall for in 2026",
+    "cat": "security",
+    "summary": "Knowing the facts on home solar power can help you make better, informed choices, save money, and stay safe.",
+    "url": "https://www.zdnet.com/article/home-solar-power-myths-debunked/",
+    "image": "",
+    "pubDate": "2026-06-12T10:51:00.000Z"
+  },
+  {
+    "id": "860e2485-848a-4356-9351-94a8af981636",
+    "title": "Why lithium-ion batteries fail us - and the gadgets I'm relying on to protect myself",
+    "cat": "security",
+    "summary": "While rechargeable batteries are generally very safe, fires at home, workplaces, and even on commercial aircraft are now on the rise. Here's why.",
+    "url": "https://www.zdnet.com/article/lithium-ion-battery-fires-what-to-do/",
+    "image": "",
+    "pubDate": "2026-06-12T10:00:34.000Z"
+  },
+  {
+    "id": "6965b708-588a-40e4-9d0b-79dea14eb654",
+    "title": "9 Google Messages settings I change on every new Android phone - and why",
+    "cat": "security",
+    "summary": "Change these Google Messages settings for a cleaner, quieter, and more private texting experience.",
+    "url": "https://www.zdnet.com/article/google-messages-settings-i-change-on-new-android-phone-why/",
+    "image": "",
+    "pubDate": "2026-06-12T08:51:10.000Z"
+  },
+  {
+    "id": "https___www.theverge.com_tech_948890_siri-wont-be-your-ai-girlfriend",
+    "title": "Siri won’t be your AI girlfriend",
+    "cat": "it",
+    "summary": "‘Listen, that's not what I'm here for.' | Image: Apple Our early testing has already shown that Siri AI knows when to shut up, and that's very much by design. In an interview with Mostly Human spotted by MacRumors, Craig Federighi said A...",
+    "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
+    "image": "",
+    "pubDate": "2026-06-12T07:00:31.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12451v1",
+    "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+    "cat": "ai",
+    "summary": "arXiv:2606.12451v1 Announce Type: new Abstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-...",
+    "url": "https://arxiv.org/abs/2606.12451",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12563v1",
+    "title": "Arbor: Tree Search as a Cognition Layer for Autonomous Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.12563v1 Announce Type: new Abstract: Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents operating in large, stateful action spaces. Prior autonomous optimization ...",
+    "url": "https://arxiv.org/abs/2606.12563",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12587v1",
+    "title": "Strategic Decision Support for AI Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.12587v1 Announce Type: new Abstract: Traditionally, decision support studies how humans use machine learning models to make better decisions. In modern agentic systems, this division of roles is increasingly reversed: AI agent...",
+    "url": "https://arxiv.org/abs/2606.12587",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12594v1",
+    "title": "Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12594v1 Announce Type: new Abstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning traces of fo...",
+    "url": "https://arxiv.org/abs/2606.12594",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12616v1",
+    "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12616v1 Announce Type: new Abstract: Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or by learn...",
+    "url": "https://arxiv.org/abs/2606.12616",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12618v1",
+    "title": "\"Did you lie?\" Evaluating Lie Detectors across Model Scale and Belief-Verified Model Organisms",
+    "cat": "ai",
+    "summary": "arXiv:2606.12618v1 Announce Type: new Abstract: Robust lie detectors for language models could enable powerful techniques for auditing, monitoring, and post-hoc investigation of model behaviour, but evaluating them requires testbeds wher...",
+    "url": "https://arxiv.org/abs/2606.12618",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12657v1",
+    "title": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12657v1 Announce Type: new Abstract: Human mobility data is important for transportation, urban planning, and epidemic control, but large-scale trajectory collection is often costly and privacy-constrained, motivating realisti...",
+    "url": "https://arxiv.org/abs/2606.12657",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12674v1",
+    "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.12674v1 Announce Type: new Abstract: Compact language models (LMs) reduce cost, latency, and deployment risk for tool agents. Yet MCP-style tool use requires more than isolated function calling: an agent must discover tools fr...",
+    "url": "https://arxiv.org/abs/2606.12674",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12683v1",
+    "title": "From AGI to ASI",
+    "cat": "ai",
+    "summary": "arXiv:2606.12683v1 Announce Type: new Abstract: Over the last decade, building human-level artificial general intelligence has moved from far-fetched speculation to being a concrete next-decade target for many of the largest AI organisat...",
+    "url": "https://arxiv.org/abs/2606.12683",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12702v1",
+    "title": "Deployment-Centered Evaluation: Predicting Query-Level Rejection Risk in a Clinical LLM System",
+    "cat": "ai",
+    "summary": "arXiv:2606.12702v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly integrated into clinical systems, making it essential to evaluate the real-world utility of these systems. However, static benchmarks tend to m...",
+    "url": "https://arxiv.org/abs/2606.12702",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12713v1",
+    "title": "Definitional alignment before capability alignment: a Design-Science framework for adjudicating claims about AGI",
+    "cat": "ai",
+    "summary": "arXiv:2606.12713v1 Announce Type: new Abstract: Claims that artificial general intelligence has already arrived and claims that it remains decades away are often defended from overlapping evidence. \"AGI\" lacks a single shared and stable ...",
+    "url": "https://arxiv.org/abs/2606.12713",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12721v1",
+    "title": "The Theory of Mind Utility: Formal Specification of a Mentalizing Mechanism",
+    "cat": "ai",
+    "summary": "arXiv:2606.12721v1 Announce Type: new Abstract: Inferring others' beliefs requires more than reading surface signals; it requires tracking who told them what, in what order, and how credibly. The Theory of Mind Utility (ToM-U) formalizes...",
+    "url": "https://arxiv.org/abs/2606.12721",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12730v1",
+    "title": "Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior",
+    "cat": "ai",
+    "summary": "arXiv:2606.12730v1 Announce Type: new Abstract: Anticipating LLM behavioral tendencies from low-cost psychometric probes is critical for safe deployment, but only if self-reports (SR) reliably predict behavior. Recent work documented sub...",
+    "url": "https://arxiv.org/abs/2606.12730",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12736v1",
+    "title": "Benchmarking AI Agents for Addressing Scientific Challenges Across Scales",
+    "cat": "ai",
+    "summary": "arXiv:2606.12736v1 Announce Type: new Abstract: AI agents are increasingly being developed to accelerate scientific discovery, yet their practical capabilities in real research settings remain poorly understood. Existing benchmarks for A...",
+    "url": "https://arxiv.org/abs/2606.12736",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12742v1",
+    "title": "Reducing the Complexity of Deep Learning Models for EEG Analysis on Wearable Devices",
+    "cat": "ai",
+    "summary": "arXiv:2606.12742v1 Announce Type: new Abstract: Wearable healthcare devices are the fastest-growing Internet of Things (IoT) sector. Many automated healthcare services rely on two crucial biological signals, namely ECG and EEG, which ref...",
+    "url": "https://arxiv.org/abs/2606.12742",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12747v1",
+    "title": "Prefill Awareness in Large Language Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12747v1 Announce Type: new Abstract: Safety-relevant studies of language models, including alignment and jailbreaking evaluations and AI control protocols, often rely on prefilling model outputs. If AI models can recognize and...",
+    "url": "https://arxiv.org/abs/2606.12747",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12767v1",
+    "title": "Constructing Evaluation Datasets for Procedural Reasoning: Balancing Naturalness, Grounding, and Multi-Hop Coverage",
+    "cat": "ai",
+    "summary": "arXiv:2606.12767v1 Announce Type: new Abstract: Evaluating procedural reasoning in AI-supported learning systems requires question-answer datasets that are both learner-like and grounded in the instructional knowledge the system is expec...",
+    "url": "https://arxiv.org/abs/2606.12767",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12783v1",
+    "title": "A Tutorial on World Models and Physical AI",
+    "cat": "ai",
+    "summary": "arXiv:2606.12783v1 Announce Type: new Abstract: World modeling is emerging as a central principle for building intelligent systems capable of prediction, reasoning, and decision making. A central distinction can be drawn between explicit...",
+    "url": "https://arxiv.org/abs/2606.12783",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12797v1",
+    "title": "The Containment Gap: How Deployed Agentic AI Frameworks Fail Public-Facing Safety Requirements",
+    "cat": "ai",
+    "summary": "arXiv:2606.12797v1 Announce Type: new Abstract: Agentic large language model systems that autonomously invoke tools, maintain persistent memory, and execute multi-step plans are increasingly deployed in public-facing domains, including g...",
+    "url": "https://arxiv.org/abs/2606.12797",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12809v1",
+    "title": "MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs",
+    "cat": "ai",
+    "summary": "arXiv:2606.12809v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are trained on massive multimodal data, making data unlearning increasingly important as data owners may request the removal of specific content. In...",
+    "url": "https://arxiv.org/abs/2606.12809",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12817v1",
+    "title": "Teach-and-Repeat: Accurately Extracting Operational Knowledge from Mobile Screen Demonstrations to Empower GUI Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.12817v1 Announce Type: new Abstract: Understanding the digital world on mobile devices is shifting from static UI perception to dynamic action comprehension. This capability enables models to convert visual state transitions i...",
+    "url": "https://arxiv.org/abs/2606.12817",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12821v1",
+    "title": "GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12821v1 Announce Type: new Abstract: Environmental scientists spend disproportionate effort on data wrangling rather than analysis, and AI agents that automate geospatial workflows remain unvalidated: no benchmark evaluates ag...",
+    "url": "https://arxiv.org/abs/2606.12821",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12828v1",
+    "title": "Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics",
+    "cat": "ai",
+    "summary": "arXiv:2606.12828v1 Announce Type: new Abstract: Do research topics in artificial intelligence grow gradually, or do they advance through abrupt, detectable jumps? Analyzing 80,814 accepted main-track papers from five premier AI conferenc...",
+    "url": "https://arxiv.org/abs/2606.12828",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12834v1",
+    "title": "Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement",
+    "cat": "ai",
+    "summary": "arXiv:2606.12834v1 Announce Type: new Abstract: As scientific workflows shift from deterministic executables to LLM-based agents, the development practices on offer, such as fine-tuning, reinforcement learning, and prompt-and-go, bury th...",
+    "url": "https://arxiv.org/abs/2606.12834",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12848v1",
+    "title": "(Human) Attention Is (Still) All You Need: Human oversight makes AI-assisted social science reliable",
+    "cat": "ai",
+    "summary": "arXiv:2606.12848v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for tasks once reserved for trained researchers, including hypothesis generation, specification choice, and drafting conclusions. We argue...",
+    "url": "https://arxiv.org/abs/2606.12848",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12852v1",
+    "title": "WISE: A Long-Horizon Agent in Minecraft with Why-Which Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12852v1 Announce Type: new Abstract: Rapid advances have been made in developing general-purpose embodied agent in environments like Minecraft through the adoption of LLM-augmented hierarchical approaches. Despite their promis...",
+    "url": "https://arxiv.org/abs/2606.12852",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12871v1",
+    "title": "DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks",
+    "cat": "ai",
+    "summary": "arXiv:2606.12871v1 Announce Type: new Abstract: Search Agents (SAs) typically leverage large language models (LLMs) to support complex information-seeking tasks by autonomously exploring web sources and synthesizing information into comp...",
+    "url": "https://arxiv.org/abs/2606.12871",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12882v1",
+    "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
+    "cat": "ai",
+    "summary": "arXiv:2606.12882v1 Announce Type: new Abstract: Large language models are increasingly deployed as agents for long-horizon tasks, yet their performance is shaped not only by model capability and environment design, but also by the harnes...",
+    "url": "https://arxiv.org/abs/2606.12882",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12883v1",
+    "title": "The Hidden Power of Scaling Factor in LoRA Optimization",
+    "cat": "ai",
+    "summary": "arXiv:2606.12883v1 Announce Type: new Abstract: In Low-Rank Adaptation (LoRA), the scaling factor $\\alpha$ is often treated as a mere complement to the learning rate, yet its role in optimization remains poorly understood. In this paper,...",
+    "url": "https://arxiv.org/abs/2606.12883",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12900v1",
+    "title": "Zero-source LLM Hallucination Detection with Human-like Criteria Probing",
+    "cat": "ai",
+    "summary": "arXiv:2606.12900v1 Announce Type: new Abstract: Large language models (LLMs) often hallucinate by generating factually incorrect or unfaithful content, posing significant risks to their safe use. Detecting such hallucinations is particul...",
+    "url": "https://arxiv.org/abs/2606.12900",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12916v1",
+    "title": "MDForge: Agentic Molecular Dynamics Pipeline Design under Sparse Simulator Feedback",
+    "cat": "ai",
+    "summary": "arXiv:2606.12916v1 Announce Type: new Abstract: Molecular dynamics (MD) is the canonical in-silico method for atomistic molecular science, simulating molecular behavior from first-principle physics. Designing an MD pipeline for a new sys...",
+    "url": "https://arxiv.org/abs/2606.12916",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12924v1",
+    "title": "Iterating Toward Better Search: A Two-Agent Simulation Framework for Evaluating Agentic Search Architectures in E-Commerce",
+    "cat": "ai",
+    "summary": "arXiv:2606.12924v1 Announce Type: new Abstract: We present a modular two-agent simulation framework for evaluating conversational shopping assistant architectures. An independent buyer agent, configured with personas, missions, and patie...",
+    "url": "https://arxiv.org/abs/2606.12924",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12935v1",
+    "title": "MARS: Margin-Adversarial Risk-controlled Stopping for Parallel LLM Test-time Scaling",
+    "cat": "ai",
+    "summary": "arXiv:2606.12935v1 Announce Type: new Abstract: Parallel test-time scaling samples many reasoning traces and majority-votes their answers, improving LLM accuracy but requiring traces to run to completion, incurring substantial computatio...",
+    "url": "https://arxiv.org/abs/2606.12935",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12942v1",
+    "title": "PRISMR: Overcoming Parse Collapse in Multimodal Listwise Ranking via Parameterized Representation Internalization",
+    "cat": "ai",
+    "summary": "arXiv:2606.12942v1 Announce Type: new Abstract: Generative listwise ranking with Large Multimodal Models (LMMs) aims to capture global list context in a single forward pass, but its effectiveness degrades in long-context multimodal scena...",
+    "url": "https://arxiv.org/abs/2606.12942",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12945v1",
+    "title": "Learning What to Remember: A Cognitively Grounded Multi-Factor Value Model for Agentic Memory",
+    "cat": "ai",
+    "summary": "arXiv:2606.12945v1 Announce Type: new Abstract: Long-running LLM agents accumulate interaction histories far larger than any context window, forcing a standing decision: what to encode deeply, what to forget, and what to retrieve under a...",
+    "url": "https://arxiv.org/abs/2606.12945",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12953v1",
+    "title": "OpenMedQ: Broad Open Pretraining for Medical Vision-Language Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12953v1 Announce Type: new Abstract: We present OpenMedQ, a medical vision-language model pretrained on the broadest fully-open medical mix to date: 14 datasets totaling ~3.35M pretraining samples spanning pathology, radiology...",
+    "url": "https://arxiv.org/abs/2606.12953",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12969v1",
+    "title": "Multi-Modal Agents for Power Distribution Defect Detection: An Evaluation of Foundation Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12969v1 Announce Type: new Abstract: The power distribution network is critical to reliable electricity delivery, yet traditional inspection methods face limitations in semantic understanding, generalization, and closed-loop a...",
+    "url": "https://arxiv.org/abs/2606.12969",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12976v1",
+    "title": "A Mathematical Forum Platform for Collaborative Problem Solving and Dataset Generation for AI Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12976v1 Announce Type: new Abstract: Sharing mathematical content in online forums remains a significant friction point for students and educators: writing raw LATEX is error-prone, standalone optical character recognition too...",
+    "url": "https://arxiv.org/abs/2606.12976",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12983v1",
+    "title": "Structured Testbench Generation for LLM-Driven HDL Design and Verification-Oriented Data Curation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12983v1 Announce Type: new Abstract: Automated testbench generation has become a critical bottleneck in large language model (LLM)-driven Register Transfer Level (RTL) workflows, where large numbers of candidate designs must b...",
+    "url": "https://arxiv.org/abs/2606.12983",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12991v1",
+    "title": "APCyc: Property-Informed Design of Cyclic Peptides via Automated Cyclization",
+    "cat": "ai",
+    "summary": "arXiv:2606.12991v1 Announce Type: new Abstract: Cyclic peptides represent a promising class of therapeutic compounds in modern drug discovery, often offering improved stability and binding affinity. However, the de novo design of cyclic ...",
+    "url": "https://arxiv.org/abs/2606.12991",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13003v1",
+    "title": "The Illusion of Multi-Agent Advantage",
+    "cat": "ai",
+    "summary": "arXiv:2606.13003v1 Announce Type: new Abstract: Prevailing wisdom posits that Multi-Agent Systems (MAS) are superior to Single-Agent Systems (SAS), citing advantages like context protection, parallel processing and distributed decision-m...",
+    "url": "https://arxiv.org/abs/2606.13003",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13016v1",
+    "title": "Otters++: A Time-to-first-spike Based Energy Efficient Optical Spiking Transformer",
+    "cat": "ai",
+    "summary": "arXiv:2606.13016v1 Announce Type: new Abstract: Spiking neural networks (SNNs) are promising for energy-efficient inference, and time-to-first-spike (TTFS) coding is especially attractive because each neuron fires at most once. In practi...",
+    "url": "https://arxiv.org/abs/2606.13016",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13020v1",
+    "title": "SciR: A Controllable Benchmark for Scientific Reasoning in LLMs",
+    "cat": "ai",
+    "summary": "arXiv:2606.13020v1 Announce Type: new Abstract: Three paradigmatic forms of inference recur across scientific reasoning: deduction, induction, and causal abduction. Reliably evaluating LLMs on these in scientific settings is currently ou...",
+    "url": "https://arxiv.org/abs/2606.13020",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13038v1",
+    "title": "Nous: An Attempt to Extract and Inject the Cognition Behind Prediction-Market Behavior",
+    "cat": "ai",
+    "summary": "arXiv:2606.13038v1 Announce Type: new Abstract: As LLM agents proliferate in prediction markets and collective decision-making, they risk a cognitive monoculture: agents built on shared foundation models produce correlated forecasts, and...",
+    "url": "https://arxiv.org/abs/2606.13038",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13042v1",
+    "title": "Augmentation techniques for video surveillance in the visible and thermal spectral range",
+    "cat": "ai",
+    "summary": "arXiv:2606.13042v1 Announce Type: new Abstract: In intelligent video surveillance, cameras record image sequences during day and night. Commonly, this demands different sensors. To achieve a better performance it is not unusual to combin...",
+    "url": "https://arxiv.org/abs/2606.13042",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13051v1",
+    "title": "AAbAAC: An Annotated Corpus for Autoimmunity Information Extraction",
+    "cat": "ai",
+    "summary": "arXiv:2606.13051v1 Announce Type: new Abstract: Despite advances in information extraction driven by deep learning and large language models, performance gaps remain in highly specialized biomedical fields, where domainspecific complexit...",
+    "url": "https://arxiv.org/abs/2606.13051",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13141v1",
+    "title": "Rethinking RAG in Long Videos: What to Retrieve and How to Use It?",
+    "cat": "ai",
+    "summary": "arXiv:2606.13141v1 Announce Type: new Abstract: Retrieval-augmented generation is moving beyond text into long, egocentric video, where systems must select query-relevant chunks across multiple modalities and temporal granularities. Yet ...",
+    "url": "https://arxiv.org/abs/2606.13141",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13148v1",
+    "title": "TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data?",
+    "cat": "ai",
+    "summary": "arXiv:2606.13148v1 Announce Type: new Abstract: Climate and environmental decision-making increasingly requires reasoning across heterogeneous inputs, including gridded physical data, satellite imagery, geospatial context, and simulator ...",
+    "url": "https://arxiv.org/abs/2606.13148",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13176v1",
+    "title": "Mental-R1: Aligning LLM Reasoning for Mental Health Assessment",
+    "cat": "ai",
+    "summary": "arXiv:2606.13176v1 Announce Type: new Abstract: Mental health problems such as anxiety, depression, and suicide remain urgent global challenges, where timely and accurate assessment is critical for effective intervention. Recently, large...",
+    "url": "https://arxiv.org/abs/2606.13176",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13192v1",
+    "title": "Reasoning for Mobile User Experience with Multimodal LLMs: Task, Benchmark, and Approach",
+    "cat": "ai",
+    "summary": "arXiv:2606.13192v1 Announce Type: new Abstract: User experience (UX) centered on usability, perceived consistency, and functional clarity is fundamental to real-world user interfaces (UI). The application of multimodal large language mod...",
+    "url": "https://arxiv.org/abs/2606.13192",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13196v1",
+    "title": "Under What Conditions Can a Machine Become Genuinely Creative?",
+    "cat": "ai",
+    "summary": "arXiv:2606.13196v1 Announce Type: new Abstract: Recent AI systems can generate texts, software architectures, hypotheses, designs, and scientific workflows that appear creative. This paper asks under what conditions a machine can become ...",
+    "url": "https://arxiv.org/abs/2606.13196",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13197v1",
+    "title": "ARMOR-MAD: Adaptive Routing for Heterogeneous Multi-Agent Debate in Large Language Model Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.13197v1 Announce Type: new Abstract: Multi-agent debate (MAD) can improve large language model reasoning, but fixed debate pipelines often waste computation and can amplify correlated errors among similar agents. We propose AR...",
+    "url": "https://arxiv.org/abs/2606.13197",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13201v1",
+    "title": "A Minimal Model of Bounded Trade-Off Screening in Multi-Attribute Choice",
+    "cat": "ai",
+    "summary": "arXiv:2606.13201v1 Announce Type: new Abstract: Human decision-making often involves choosing between multi-attribute alternatives, yet classical models assume fully compensatory utility aggregation despite evidence that people reject op...",
+    "url": "https://arxiv.org/abs/2606.13201",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13211v1",
+    "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+    "cat": "ai",
+    "summary": "arXiv:2606.13211v1 Announce Type: new Abstract: AI systems are being deployed across medical imaging faster than their failure modes are understood. At this point in time, the failure of greatest clinical concern is hallucination: clinic...",
+    "url": "https://arxiv.org/abs/2606.13211",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13220v1",
+    "title": "LLM-as-an-Investigator: Evidence-First Reasoning for Robust Interactive Problem Diagnosis",
+    "cat": "ai",
+    "summary": "arXiv:2606.13220v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as interactive assistants for technical problem solving. However, when users provide incomplete descriptions or plausible but unverified e...",
+    "url": "https://arxiv.org/abs/2606.13220",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13241v1",
+    "title": "Brick: Spatial Capability Routing for the Mixture-of-Models (MoM) Paradigm",
+    "cat": "ai",
+    "summary": "arXiv:2606.13241v1 Announce Type: new Abstract: Defining query difficulty is one of the hardest problems in deployment engineering. Existing LLM routers rely on surface features such as domain labels, keywords, and token count, ignoring ...",
+    "url": "https://arxiv.org/abs/2606.13241",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13247v1",
+    "title": "EPIG: Emotion-Based Prompting for Personalised Image Generation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13247v1 Announce Type: new Abstract: Text-to-image diffusion models have achieved impressive results in synthesizing high-quality images from natural language prompts. However, commonly used prompting strategies remain relativ...",
+    "url": "https://arxiv.org/abs/2606.13247",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13249v1",
+    "title": "Multi-Field Hybrid Retrieval-Augmented Generation for Maritime Accident Root Cause Analysis",
+    "cat": "ai",
+    "summary": "arXiv:2606.13249v1 Announce Type: new Abstract: Maritime accident adjudication reports contain critical tribunal findings for root cause analysis (RCA), yet retrieving relevant precedents and drafting consistent reports from decades of r...",
+    "url": "https://arxiv.org/abs/2606.13249",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13258v1",
+    "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+    "cat": "ai",
+    "summary": "arXiv:2606.13258v1 Announce Type: new Abstract: Gait-based Parkinson's disease assessment increasingly relies on heterogeneous sensors, but clinical systems rarely collect all modalities simultaneously. New sensors may arrive through dev...",
+    "url": "https://arxiv.org/abs/2606.13258",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13262v1",
+    "title": "From Verdict to Process: Agentic Reinforcement Learning for Multi-Stage Fact Verification",
+    "cat": "ai",
+    "summary": "arXiv:2606.13262v1 Announce Type: new Abstract: Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification. To process complex claims, these verification...",
+    "url": "https://arxiv.org/abs/2606.13262",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13282v1",
+    "title": "ERTS: Adversarial Robustness Testing of Ethical AI via Semantic Perturbation in a Bounded Consequence Space",
+    "cat": "ai",
+    "summary": "arXiv:2606.13282v1 Announce Type: new Abstract: As AI systems are deployed in high-stakes ethical contexts such as healthcare triage, autonomous vehicle control, and employment screening, formal methods for evaluating their robustness ag...",
+    "url": "https://arxiv.org/abs/2606.13282",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13302v1",
+    "title": "Physics-Guided Spatiotemporal Learning for Coastal Wave Peak Period Estimation from Video",
+    "cat": "ai",
+    "summary": "arXiv:2606.13302v1 Announce Type: new Abstract: Wave parameters in the nearshore are crucial for coastal engineering, shoreline protection, marine hazard assessment, and coastal management for climate resilience. Traditional monitoring s...",
+    "url": "https://arxiv.org/abs/2606.13302",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13316v1",
+    "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+    "cat": "ai",
+    "summary": "arXiv:2606.13316v1 Announce Type: new Abstract: Reinforcement Learning with Verifiable Rewards (RLVR) is a central technique for improving long-horizon reasoning in Large Language Models (LLMs). However, existing RLVR methods often encou...",
+    "url": "https://arxiv.org/abs/2606.13316",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13361v1",
+    "title": "Can I Buy Your KV Cache?",
+    "cat": "ai",
+    "summary": "arXiv:2606.13361v1 Announce Type: new Abstract: Right now, across the world, AI agents are repeating the same absurd act: to read one document, they each recompute it from scratch. Every agent re-runs prefill, the most compute-intensive ...",
+    "url": "https://arxiv.org/abs/2606.13361",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13368v1",
+    "title": "IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing",
+    "cat": "ai",
+    "summary": "arXiv:2606.13368v1 Announce Type: new Abstract: Computer-Aided Design is pivotal in modern manufacturing, yet existing automated methods predominantly rely on open-loop, one-shot generation, creating a mismatch with iterative real-world ...",
+    "url": "https://arxiv.org/abs/2606.13368",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13370v1",
+    "title": "A Quantitative Experimental Repeated Measures Study of Training Dynamics in a Small Llama Style Language Model Under a Compute-Aware Token Budget",
+    "cat": "ai",
+    "summary": "arXiv:2606.13370v1 Announce Type: new Abstract: This study examines training dynamics in a small Llama-style language model trained under a fixed, compute-constrained token budget. Rather than evaluating efficiency solely through endpoin...",
+    "url": "https://arxiv.org/abs/2606.13370",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13392v1",
+    "title": "MiniMax Sparse Attention",
+    "cat": "ai",
+    "summary": "arXiv:2606.13392v1 Announce Type: new Abstract: Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory all require the model to jointly attend ...",
+    "url": "https://arxiv.org/abs/2606.13392",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13405v1",
+    "title": "Neuro-Symbolic Agents for Regulated Process Automation: Challenges and Research Agenda",
+    "cat": "ai",
+    "summary": "arXiv:2606.13405v1 Announce Type: new Abstract: LLM-based agents are entering regulated industries where they automate judgment intensive quality management processes. We argue that symbolic structures already embedded in these domains, ...",
+    "url": "https://arxiv.org/abs/2606.13405",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13407v1",
+    "title": "Optimizing Appliance Scheduling for Solar Energy Management Using Metaheuristic Algorithms",
+    "cat": "ai",
+    "summary": "arXiv:2606.13407v1 Announce Type: new Abstract: Renewable energy is essential for meeting future energy demands; however, solar energy generation, which occurs only during daylight hours often does not align with household consumption pa...",
+    "url": "https://arxiv.org/abs/2606.13407",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13436v1",
+    "title": "Evaluation Sovereignty in Metadata-Driven Classification: A Multi-Track Framework for Weakly Supervised Information Systems",
+    "cat": "ai",
+    "summary": "arXiv:2606.13436v1 Announce Type: new Abstract: Evaluation in machine learning is typically treated as a neutral measurement process. However, in operational information systems, evaluation outcomes are often conditioned by the processes...",
+    "url": "https://arxiv.org/abs/2606.13436",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13441v1",
+    "title": "Why Sampling Is Not Choosing: Intentionality, Agency, and Moral Responsibility in Large Language Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.13441v1 Announce Type: new Abstract: Recent advances in large language models (LLMs) have prompted claims that such systems exhibit agency or qualify as moral agents. This paper argues that these attributions are misguided. We...",
+    "url": "https://arxiv.org/abs/2606.13441",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13513v1",
+    "title": "CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13513v1 Announce Type: new Abstract: Driven by conservative over-provisioning to guarantee service reliability, resource utilization in cloud data centers remains at low levels. To mitigate this, the forecast-then-optimize par...",
+    "url": "https://arxiv.org/abs/2606.13513",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13550v1",
+    "title": "Uncertainty-Aware Hybrid Retrieval for Long-Document RAG",
+    "cat": "ai",
+    "summary": "arXiv:2606.13550v1 Announce Type: new Abstract: Retrieval augmented generation (RAG) depends critically on the quality and granularity of retrieved evidence. Large retrieval units preserve context but often introduce irrelevant content, ...",
+    "url": "https://arxiv.org/abs/2606.13550",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13556v1",
+    "title": "Is It You or Your Environment? A Bayesian Inference Framework for Genomically-Anchored Personalized Physiological Interpretation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13556v1 Announce Type: new Abstract: Personalized health AI systems face a fundamental cold-start problem: machine learning models for physiological interpretation require weeks of individual behavioral data before they can di...",
+    "url": "https://arxiv.org/abs/2606.13556",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13566v1",
+    "title": "A Three-Layer Framework for AI in Scientific Discovery",
+    "cat": "ai",
+    "summary": "arXiv:2606.13566v1 Announce Type: new Abstract: Current discussions of AI in scientific discovery are often dominated by two visible capabilities: search over existing knowledge and execution through optimization, simulation, and automat...",
+    "url": "https://arxiv.org/abs/2606.13566",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13591v1",
+    "title": "Multiagent Protocols with Aggregated Confidence Signals",
+    "cat": "ai",
+    "summary": "arXiv:2606.13591v1 Announce Type: new Abstract: Confidence is used for reliability, oversight, and a range of downstream decision tasks in Natural Language Processing (NLP), yet no existing method produces or evaluates a confidence for t...",
+    "url": "https://arxiv.org/abs/2606.13591",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13598v1",
+    "title": "Reward Modeling for Multi-Agent Orchestration",
+    "cat": "ai",
+    "summary": "arXiv:2606.13598v1 Announce Type: new Abstract: Multi-Agent Systems (MAS) built on Large Language Models (LLMs) require effective orchestration to coordinate specialized agents, yet training such orchestrators is hindered by limited supe...",
+    "url": "https://arxiv.org/abs/2606.13598",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13602v1",
+    "title": "EpiBench: Verifiable Evaluation of AI Agents on Epigenomics Analysis",
+    "cat": "ai",
+    "summary": "arXiv:2606.13602v1 Announce Type: new Abstract: We introduce EpiBench, a verifiable benchmark for short-horizon epigenomics analysis. EpiBench evaluates whether agents can make well-defined analysis decisions from realistic workflow stat...",
+    "url": "https://arxiv.org/abs/2606.13602",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13604v1",
+    "title": "Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch",
+    "cat": "ai",
+    "summary": "arXiv:2606.13604v1 Announce Type: new Abstract: Dispatch in three-sided marketplaces provides a natural setting for reinforcement learning from world feedback: decisions are evaluated by delayed operational outcomes such as delivery spee...",
+    "url": "https://arxiv.org/abs/2606.13604",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13607v1",
+    "title": "Reasoning as Pattern Matching: Shared Mechanisms in Human and LLM Everyday Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.13607v1 Announce Type: new Abstract: When large language models (LLMs) fail to generalize or make haphazard errors in reasoning, it is often taken as evidence that LLMs are not truly reasoning, but rather performing a kind of ...",
+    "url": "https://arxiv.org/abs/2606.13607",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13608v1",
+    "title": "AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility",
+    "cat": "ai",
+    "summary": "arXiv:2606.13608v1 Announce Type: new Abstract: Agent systems are advancing quickly across domains, but their evaluation remains fragmented. Most benchmarks rely on fixed, LLM-centric harnesses that require heavy integration, create test...",
+    "url": "https://arxiv.org/abs/2606.13608",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13621v1",
+    "title": "Beyond Runtime Enforcement: Shield Synthesis as Defensibility Analysis for Adversarial Networks",
+    "cat": "ai",
+    "summary": "arXiv:2606.13621v1 Announce Type: new Abstract: Shielded reinforcement learning is typically presented as a runtime safety mechanism that compiles temporal-logic specifications into automata restricting an agent's actions. We argue this ...",
+    "url": "https://arxiv.org/abs/2606.13621",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13658v1",
+    "title": "Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization",
+    "cat": "ai",
+    "summary": "arXiv:2606.13658v1 Announce Type: new Abstract: This paper examines three recent frameworks for understanding the cognitive and epistemic consequences of artificial intelligence: Tri-System Theory, Thinkframes, and System 0. It argues th...",
+    "url": "https://arxiv.org/abs/2606.13658",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13662v1",
+    "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+    "cat": "ai",
+    "summary": "arXiv:2606.13662v1 Announce Type: new Abstract: LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scient...",
+    "url": "https://arxiv.org/abs/2606.13662",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13669v1",
+    "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+    "cat": "ai",
+    "summary": "arXiv:2606.13669v1 Announce Type: new Abstract: Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surfac...",
+    "url": "https://arxiv.org/abs/2606.13669",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13670v1",
+    "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+    "cat": "ai",
+    "summary": "arXiv:2606.13670v1 Announce Type: new Abstract: Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recov...",
+    "url": "https://arxiv.org/abs/2606.13670",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12413v1",
+    "title": "AI SciBrief as a Gateway to Research: A Framework for Onboarding Students into New Research Areas",
+    "cat": "ai",
+    "summary": "arXiv:2606.12413v1 Announce Type: cross Abstract: Students at all levels of higher education face a significant barrier in the form of information overload, which often paralyzes the initial stages of the research process and suppresses ...",
+    "url": "https://arxiv.org/abs/2606.12413",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12415v1",
+    "title": "The AI Legal Specialist: A Juridically Autonomous Professional Profile for AI Governance",
+    "cat": "ai",
+    "summary": "arXiv:2606.12415v1 Announce Type: cross Abstract: The rapid global expansion of artificial intelligence regulation has generated, across multiple jurisdictions, a demand for legal expertise dedicated to AI that the market has addressed i...",
+    "url": "https://arxiv.org/abs/2606.12415",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12418v1",
+    "title": "Divination by Prompt: LLM-Mediated Xuanxue on Chinese Social Media",
+    "cat": "ai",
+    "summary": "arXiv:2606.12418v1 Announce Type: cross Abstract: The rapid proliferation of large language models (LLMs) has produced a striking cultural practice: using conversational AI for divination. This paper offers one of the first systematic st...",
+    "url": "https://arxiv.org/abs/2606.12418",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12419v1",
+    "title": "GeoDial: A Multimodal Conversational Tutoring Dataset for Geometry Problem-Solving with Visual Tutor Turns",
+    "cat": "ai",
+    "summary": "arXiv:2606.12419v1 Announce Type: cross Abstract: Several educational domains rely heavily on diagrams and visual cues, yet most existing tutoring datasets are limited to text-only interactions. This limits the development of AI tutors t...",
+    "url": "https://arxiv.org/abs/2606.12419",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12420v1",
+    "title": "Eigenism: Ethics for a Human-AI Future",
+    "cat": "ai",
+    "summary": "arXiv:2606.12420v1 Announce Type: cross Abstract: Our concepts of survival and self-interest were built for single, continuous biological lives. These ideas break down when applied to artificial intelligence, since an AI can be easily co...",
+    "url": "https://arxiv.org/abs/2606.12420",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12422v1",
+    "title": "Creating and Evaluating K-12 GenAI Assessment Graders Through Context Engineering",
+    "cat": "ai",
+    "summary": "arXiv:2606.12422v1 Announce Type: cross Abstract: The integration of large language models (LLMs) into educational assessment represents a transformative shift in classroom grading practices. While automated scoring systems and machine l...",
+    "url": "https://arxiv.org/abs/2606.12422",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12423v1",
+    "title": "The Challenges of Balancing AI Compliance and Technological Innovations in Critical Sectors: A Systematic Literature Review",
+    "cat": "ai",
+    "summary": "arXiv:2606.12423v1 Announce Type: cross Abstract: The rapid integration of artificial intelligence (AI) into critical infrastructure including healthcare, finance, energy, and defense, offers transformative benefits but also conflicts wi...",
+    "url": "https://arxiv.org/abs/2606.12423",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12424v1",
+    "title": "AI-Automation Tooling in Computer Engineering Education: Mixed-Methods TAM/UTAUT Evidence for a General Acceptance Attitude",
+    "cat": "ai",
+    "summary": "arXiv:2606.12424v1 Announce Type: cross Abstract: As generative AI and low-code workflow platforms become routine in software practice, a key educational question is whether the next generation of computer engineers will accept these too...",
+    "url": "https://arxiv.org/abs/2606.12424",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12425v1",
+    "title": "An Explainable AI Assistant for Introductory Programming Education: Improving Feedback Reliability with Instructor-AI Collaboration",
+    "cat": "ai",
+    "summary": "arXiv:2606.12425v1 Announce Type: cross Abstract: Active learning is widely recognized as an effective approach for improving learning outcomes in introductory programming courses. However, insufficient instructional support often limits...",
+    "url": "https://arxiv.org/abs/2606.12425",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12428v1",
+    "title": "Mapping AI Programs in the U.S: A Status Report from Early 2026 and an Analysis of AI Majors and Minors",
+    "cat": "ai",
+    "summary": "arXiv:2606.12428v1 Announce Type: cross Abstract: We present a report on the status of undergraduate Artificial Intelligence (AI) programs in the United States in Spring 2026. In so doing, we 1) describe our scraping and mapping tools, w...",
+    "url": "https://arxiv.org/abs/2606.12428",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12429v1",
+    "title": "Muse Spark Safety &amp; Preparedness Report",
+    "cat": "ai",
+    "summary": "arXiv:2606.12429v1 Announce Type: cross Abstract: Muse Spark is the latest large language model developed by Meta. In this report, we first present evaluations for catastrophic risk domains under Meta's Advanced AI Scaling Framework, alo...",
+    "url": "https://arxiv.org/abs/2606.12429",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12430v1",
+    "title": "Will AI Agents Free Us From Meaningless Work? A Human-Centered Analysis",
+    "cat": "ai",
+    "summary": "arXiv:2606.12430v1 Announce Type: cross Abstract: Some claim that AI agents will free workers from the boring parts of their jobs, yet little is known about how workers themselves identify which tasks should be automated. Prior research ...",
+    "url": "https://arxiv.org/abs/2606.12430",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12437v1",
+    "title": "Algorithmic Constitutionalism",
+    "cat": "ai",
+    "summary": "arXiv:2606.12437v1 Announce Type: cross Abstract: The increasing encroachment of artificial intelligence (AI) on social life raises significant risks for society, particularly within the infospheres created and controlled by companies su...",
+    "url": "https://arxiv.org/abs/2606.12437",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12439v1",
+    "title": "Position: Generative Engine Optimization Creates Underexamined Risks, Governance Must Target Concentration, Disclosure, and Academic Blind Spots",
+    "cat": "ai",
+    "summary": "arXiv:2606.12439v1 Announce Type: cross Abstract: Large language model (LLM) answer engines are increasingly used for information seeking, shifting visibility from ranked lists to synthesized answers. This enables Generative Engine Optim...",
+    "url": "https://arxiv.org/abs/2606.12439",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12441v1",
+    "title": "Generativism: Toward a Learning Theory for the Age of Generative Artificial Intelligence",
+    "cat": "ai",
+    "summary": "arXiv:2606.12441v1 Announce Type: cross Abstract: The four dominant learning theories of behaviorism, cognitivism, constructivism, and connectivism show significant conceptual limitations as generative artificial intelligence (AI) prolif...",
+    "url": "https://arxiv.org/abs/2606.12441",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12442v1",
+    "title": "Reframing AI Loss of Control: What It Is, How to Have It, How to Lose It",
+    "cat": "ai",
+    "summary": "arXiv:2606.12442v1 Announce Type: cross Abstract: At present, loss of control risks have gained much prominence in public discussion, particularly in relation to AI, with extensive discourse present among academics, frontier labs, and ev...",
+    "url": "https://arxiv.org/abs/2606.12442",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12443v1",
+    "title": "Occupational Prompting Reveals Cultural Bias in Large Language Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12443v1 Announce Type: cross Abstract: Social roles shape expectations, priorities, and judgments, yet it remains unclear how large language models (LLMs) associate occupational identities with broader cultural value patterns....",
+    "url": "https://arxiv.org/abs/2606.12443",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12474v1",
+    "title": "SAIGuard: Communication-State Simulation for Proactive Defense of LLM Multi-Agent Systems",
+    "cat": "ai",
+    "summary": "arXiv:2606.12474v1 Announce Type: cross Abstract: LLM-based multi-agent systems (MAS) solve complex tasks through inter-agent collaboration, but their communication-driven nature also allows security risks to spread across agents and tri...",
+    "url": "https://arxiv.org/abs/2606.12474",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12476v1",
+    "title": "Quickest Detection of Hallucination Onset: Delay Bounds and Learned CUSUM Statistics",
+    "cat": "ai",
+    "summary": "arXiv:2606.12476v1 Announce Type: cross Abstract: Token-level hallucination detectors are evaluated as classifiers, by AUC over all tokens, yet a streaming monitor is judged by its reaction time: the number of tokens that pass between th...",
+    "url": "https://arxiv.org/abs/2606.12476",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12479v1",
+    "title": "ReCal: Reward Calibration for RL-based LLM Routing",
+    "cat": "ai",
+    "summary": "arXiv:2606.12479v1 Announce Type: cross Abstract: Large language model (LLM) routing has emerged as an effective paradigm for leveraging the complementary strengths of multiple LLMs through dynamic model and reasoning-strategy selection....",
+    "url": "https://arxiv.org/abs/2606.12479",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12481v1",
+    "title": "Representing Time Series as Structured Programs for LLM Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12481v1 Announce Type: cross Abstract: Large language models (LLMs) have demonstrated strong reasoning and instruction-following capabilities, making them potentially powerful tools for time-series analysis. However, time seri...",
+    "url": "https://arxiv.org/abs/2606.12481",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12485v1",
+    "title": "Speculative Rollback Correction for Quality-Diverse Web Agent Imitation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12485v1 Announce Type: cross Abstract: Training interactive web agents through imitation learning from expert trajectories has emerged as a highly effective approach. However, determining the optimal timing for expert interven...",
+    "url": "https://arxiv.org/abs/2606.12485",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12500v1",
+    "title": "Improving Crash Frequency Prediction from Simulated Traffic Conflicts Using Machine Learning Based Microsimulation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12500v1 Announce Type: cross Abstract: Traffic microsimulation combined with surrogate safety measures has increasingly been used as a proactive alternative to historical crash data for predicting crash frequency for current o...",
+    "url": "https://arxiv.org/abs/2606.12500",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12502v1",
+    "title": "A Mathematical Theory of Value: a synthesis on goal-directed agency under resource constraints",
+    "cat": "ai",
+    "summary": "arXiv:2606.12502v1 Announce Type: cross Abstract: We propose that value -- the quantity goal-directed agents create, destroy, and exchange -- is a lawful structural quantity in the same category as information. Following Shannon's method...",
+    "url": "https://arxiv.org/abs/2606.12502",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12505v1",
+    "title": "Boosting Direct Preference Optimization with Penalization",
+    "cat": "ai",
+    "summary": "arXiv:2606.12505v1 Announce Type: cross Abstract: Offline preference optimization has become a practical substitute for reinforcement learning from human feedback, but pairwise objectives such as Direct Preference Optimization (DPO) and ...",
+    "url": "https://arxiv.org/abs/2606.12505",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12550v1",
+    "title": "Foresight: Iterative Reasoning About Clues that Matter for Navigation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12550v1 Announce Type: cross Abstract: Open-world mapless navigation from sparse language instructions requires resolving underspecified goals and inferring which environmental cues are relevant for reaching the goal. For inst...",
+    "url": "https://arxiv.org/abs/2606.12550",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12569v1",
+    "title": "EDEN: A Large-Scale Corpus of Clinical Notes for Italian",
+    "cat": "ai",
+    "summary": "arXiv:2606.12569v1 Announce Type: cross Abstract: We present EDEN (Emergency Department Electronic Notes), a new and unique large-scale corpus of clinical notes produced in Emergency Departments of Italian hospitals. The corpus, in its c...",
+    "url": "https://arxiv.org/abs/2606.12569",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12581v1",
+    "title": "Graph Reduction in Multirelational Networks: A Spreading-Oriented Reduction Benchmark",
+    "cat": "ai",
+    "summary": "arXiv:2606.12581v1 Announce Type: cross Abstract: Real-world networks are inherently incomplete, noisy, and dynamically evolving, making it difficult to capture all actors and their relationships. Their scale often renders direct analysi...",
+    "url": "https://arxiv.org/abs/2606.12581",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12590v1",
+    "title": "Analyzing and Improving Fine-grained Preference Optimization in Medical LVLMs",
+    "cat": "ai",
+    "summary": "arXiv:2606.12590v1 Announce Type: cross Abstract: Large Vision-Language Models (LVLMs) have achieved strong performance across medical imaging tasks, yet they remain prone to factual inconsistencies, poor visual grounding, and misalignme...",
+    "url": "https://arxiv.org/abs/2606.12590",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12595v1",
+    "title": "Emerging Flexible Designs for Geospatial Multimodal Foundation Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12595v1 Announce Type: cross Abstract: Foundation models are rapidly transforming Earth observation by enabling scalable pretraining across diverse unlabeled geospatial modalities. However, their architectural diversity rangin...",
+    "url": "https://arxiv.org/abs/2606.12595",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12603v1",
+    "title": "From Imitation to Alignment: Human-Preference Flow Policies for Long-Horizon Sidewalk Navigation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12603v1 Announce Type: cross Abstract: Autonomous long-horizon sidewalk navigation is essential for micro-mobility applications such as robotic food delivery and assistive electronic wheelchairs. Unlike autonomous driving on t...",
+    "url": "https://arxiv.org/abs/2606.12603",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12620v1",
+    "title": "HybridCodeAuthorship: A Benchmark Dataset for Line-Level Code Authorship Detection",
+    "cat": "ai",
+    "summary": "arXiv:2606.12620v1 Announce Type: cross Abstract: Thanks to the rapid adoption of AI code assistants powered by large language models (LLMs), industry codebases are, increasingly, a hybrid of AI- and human-authored code. For risk managem...",
+    "url": "https://arxiv.org/abs/2606.12620",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12629v1",
+    "title": "Bag of Dims: Training-Free Mechanistic Interpretability via Dimension-Level Sign Patterns",
+    "cat": "ai",
+    "summary": "arXiv:2606.12629v1 Announce Type: cross Abstract: We show that the standard basis of transformer hidden states already provides a training-free, architecture-general feature basis. Individual dimensions encode semantic content via their ...",
+    "url": "https://arxiv.org/abs/2606.12629",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12634v1",
+    "title": "Keep Policy Gradient in Charge: Sibling-Guided Credit Distillation for Long-Horizon Tool-Use Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.12634v1 Announce Type: cross Abstract: Long-horizon tool-use reinforcement learning can learn from outcome verification, but its trajectory-level advantage is broadcast across many reasoning, API, and answer tokens. Self-disti...",
+    "url": "https://arxiv.org/abs/2606.12634",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12647v1",
+    "title": "Token Complexity Theory for AI-Augmented Computing",
+    "cat": "ai",
+    "summary": "arXiv:2606.12647v1 Announce Type: cross Abstract: AI-augmented computing delegates natural language queries, code generation requests, and other open-ended tasks to a cluster of AI models that processes queries and generates responses. T...",
+    "url": "https://arxiv.org/abs/2606.12647",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12662v1",
+    "title": "BASENet: Band-Adapted Speech Enhancement Network with Cross-Band Attention",
+    "cat": "ai",
+    "summary": "arXiv:2606.12662v1 Announce Type: cross Abstract: Speech enhancement models typically apply uniform capacity across all frequencies, disregarding the non-uniform spectral resolution of human hearing. We propose BASENet, a frequency-adapt...",
+    "url": "https://arxiv.org/abs/2606.12662",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12666v1",
+    "title": "CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.12666v1 Announce Type: cross Abstract: Screenshot-based mobile GUI agents can operate ordinary smartphone apps through the same visual interface as a human user, but this capability also turns every screen observation into a p...",
+    "url": "https://arxiv.org/abs/2606.12666",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12667v1",
+    "title": "Free-Placement Optimization of Ground Station Locations for Low-Earth Orbit Satellites",
+    "cat": "ai",
+    "summary": "arXiv:2606.12667v1 Announce Type: cross Abstract: Rapidly expanding low Earth orbit satellite constellations are placing increasing demands on terrestrial ground networks, motivating the development of more efficient ground station netwo...",
+    "url": "https://arxiv.org/abs/2606.12667",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12673v1",
+    "title": "A Zero-shot Generalized Graph Anomaly Detection Framework via Node Reconstruction",
+    "cat": "ai",
+    "summary": "arXiv:2606.12673v1 Announce Type: cross Abstract: Cross-domain graph anomaly detection (GAD) aims to identify abnormal nodes in unseen target graphs, showing strong potential in real-world applications with heterogeneous graph data. Howe...",
+    "url": "https://arxiv.org/abs/2606.12673",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12688v1",
+    "title": "M*: A Modular, Extensible, Serving System for Multimodal Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12688v1 Announce Type: cross Abstract: We are entering a new era of composite model architectures that integrate diverse components such as vision encoders, language backbones, diffusion and flow heads, audio codecs, action ge...",
+    "url": "https://arxiv.org/abs/2606.12688",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12690v1",
+    "title": "EWAM: An Enhanced World Action Model for Closed-Loop Online Adaptation in Embodied Intelligence",
+    "cat": "ai",
+    "summary": "arXiv:2606.12690v1 Announce Type: cross Abstract: In this paper, we propose the Enhanced World Action Model (EWAM), a closed-loop online adaptation architecture built upon a pretrained and fully frozen Cosmos3 backbone network. Evaluated...",
+    "url": "https://arxiv.org/abs/2606.12690",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12691v1",
+    "title": "Two-Layer Linear Auto-Regressive Models Estimate Latent States",
+    "cat": "ai",
+    "summary": "arXiv:2606.12691v1 Announce Type: cross Abstract: Auto-regressive models have emerged as powerful tools for sequential data, from language to video. Understanding how and why these models learn latent representations remains an open theo...",
+    "url": "https://arxiv.org/abs/2606.12691",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12699v1",
+    "title": "LLM-Powered Personalized Glycemic Assessment in Type 2 Diabetes with Wearable Sensor Data",
+    "cat": "ai",
+    "summary": "arXiv:2606.12699v1 Announce Type: cross Abstract: Type 2 Diabetes (T2D) poses an increasing global health threat, demanding effective glycemic assessment to support personalized and improved diabetes care. Wearable sensors such as contin...",
+    "url": "https://arxiv.org/abs/2606.12699",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12703v1",
+    "title": "SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems",
+    "cat": "ai",
+    "summary": "arXiv:2606.12703v1 Announce Type: cross Abstract: Retrieval-augmented generation (RAG) agents increasingly run with persistent memory that accumulates across user sessions. This creates a new attack surface: an adversary interacting only...",
+    "url": "https://arxiv.org/abs/2606.12703",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12708v1",
+    "title": "AfriSUD: A Dependency Treebank Collection for Evaluating Models on African Languages",
+    "cat": "ai",
+    "summary": "arXiv:2606.12708v1 Announce Type: cross Abstract: Despite their linguistic diversity and global significance, African languages remain underrepresented in research and resources to support NLP. We aim to bridge this gap by introducing Af...",
+    "url": "https://arxiv.org/abs/2606.12708",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12737v1",
+    "title": "PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections",
+    "cat": "ai",
+    "summary": "arXiv:2606.12737v1 Announce Type: cross Abstract: Large Language Models (LLMs) are rapidly evolving into agentic systems that interact with external tools and environments, introducing new security risks such as indirect prompt injection...",
+    "url": "https://arxiv.org/abs/2606.12737",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12754v1",
+    "title": "LLMs Can Better Capture Human Judgments--With the Right Prompts",
+    "cat": "ai",
+    "summary": "arXiv:2606.12754v1 Announce Type: cross Abstract: Are large language models (LLMs) bad at capturing human judgment? Two commonly stated limitations are that LLMs fail to capture full distributions of responses, and that their judgments a...",
+    "url": "https://arxiv.org/abs/2606.12754",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12774v1",
+    "title": "Agentic MPC for Semantic Control System Resynthesis",
+    "cat": "ai",
+    "summary": "arXiv:2606.12774v1 Announce Type: cross Abstract: While MPC effectively handles structured, diverse, and low-level specifications, it lacks the capability to dynamically incorporate high-level contextual information such as social norms,...",
+    "url": "https://arxiv.org/abs/2606.12774",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12805v1",
+    "title": "Exploring How Agent Voice Accents Shape Human-AI Collaboration in K-12 Group Learning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12805v1 Announce Type: cross Abstract: Collaboration is widely recognized as a cornerstone of 21st-century education, yet teachers still encounter persistent challenges in fostering productive peer interaction. LLM conversatio...",
+    "url": "https://arxiv.org/abs/2606.12805",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12808v1",
+    "title": "SymQNet: Amortized Acquisition for Low-Latency Adaptive Hamiltonian Learning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12808v1 Announce Type: cross Abstract: Adaptive Hamiltonian learning is central to calibrating and characterizing quantum devices. In an adaptive controller, choosing the next experiment is itself a computation. Bayesian desig...",
+    "url": "https://arxiv.org/abs/2606.12808",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12814v1",
+    "title": "Stubborn: A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids",
+    "cat": "ai",
+    "summary": "arXiv:2606.12814v1 Announce Type: cross Abstract: Recent reinforcement learning approaches have shown great promise in improving humanoid motion tracking performance and achieving fall recovery under disturbances. However, most existing ...",
+    "url": "https://arxiv.org/abs/2606.12814",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12818v1",
+    "title": "Localizing Anchoring Pathways in Language Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12818v1 Announce Type: cross Abstract: Irrelevant numbers in a prompt can shift language model judgments, producing anchoring effects in numerical reasoning. We study where this anchor-sensitive signal is carried inside langua...",
+    "url": "https://arxiv.org/abs/2606.12818",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12824v1",
+    "title": "Acquisition state behaves as a structured, measurable variable governing lung-nodule AI: kernel-driven measurement instability and noise-driven detection fragility, invisible to DICOM metadata",
+    "cat": "ai",
+    "summary": "arXiv:2606.12824v1 Announce Type: cross Abstract: AI governance for medical imaging is formalizing: the 2026 ACR-SIIM Practice Parameter recommends local acceptance testing and ongoing drift monitoring, and the ACR Assess-AI registry mon...",
+    "url": "https://arxiv.org/abs/2606.12824",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12826v1",
+    "title": "DIMOS: Disentangling Instance-level Moving Object Segmentation",
+    "cat": "ai",
+    "summary": "arXiv:2606.12826v1 Announce Type: cross Abstract: Moving instance segmentation (MIS) attracts increasing attention due to its broad applications in traffic surveillance, autonomous driving, and animal tracking. Event cameras record async...",
+    "url": "https://arxiv.org/abs/2606.12826",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12830v1",
+    "title": "Perceive, Interact, Reason: Building Tool-Augmented Visual Agents for Spatial Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12830v1 Announce Type: cross Abstract: While recent vision-language models (VLMs) demonstrate strong multimodal understanding, they remain limited in spatial reasoning tasks that require active evidence acquisition and multi-s...",
+    "url": "https://arxiv.org/abs/2606.12830",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12835v1",
+    "title": "The Internet of Agentic AI: Communication, Coordination, and Collective Intelligence at Scale",
+    "cat": "ai",
+    "summary": "arXiv:2606.12835v1 Announce Type: cross Abstract: The rapid emergence of autonomous AI agents is transforming artificial intelligence from isolated model inference into distributed systems of reasoning, communication, and action. This pa...",
+    "url": "https://arxiv.org/abs/2606.12835",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12838v1",
+    "title": "OCOO-T : A Simple and Scalable Virtual Cell Model for Transcriptional Perturbation Response Prediction",
+    "cat": "ai",
+    "summary": "arXiv:2606.12838v1 Announce Type: cross Abstract: Predicting single-cell transcriptional responses to genetic, chemical and cytokine perturbations is a fundamental challenge in computational biology and AI Virtual Cell (AIVC) modeling, w...",
+    "url": "https://arxiv.org/abs/2606.12838",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12841v1",
+    "title": "TimeROME-DLM: Temporal Causal Tracing and Low-Rank Inference-Time Knowledge Editing for Masked Diffusion Language Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12841v1 Announce Type: cross Abstract: Masked diffusion language models (MDLMs) such as LLaDA now rival autoregressive (AR) LLMs, but every existing knowledge-editing and unlearning method (ROME, MEMIT, etc.) targets AR transf...",
+    "url": "https://arxiv.org/abs/2606.12841",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12858v1",
+    "title": "JSCGC: Joint Source-Channel-Generation Coding for Wireless Generative Communications",
+    "cat": "ai",
+    "summary": "arXiv:2606.12858v1 Announce Type: cross Abstract: Conventional communication systems, including both separation-based coding and learning-based joint source-channel coding (JSCC), are typically designed under Shannon's rate-distortion th...",
+    "url": "https://arxiv.org/abs/2606.12858",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12864v1",
+    "title": "Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming",
+    "cat": "ai",
+    "summary": "arXiv:2606.12864v1 Announce Type: cross Abstract: Despite strong performance in competitive programming, the role of Large Language Models (LLMs) in supporting human learning in the same setting remains largely unexplored. In this work, ...",
+    "url": "https://arxiv.org/abs/2606.12864",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12886v1",
+    "title": "Bridging Modal Isolation in Interleaved Thinking: Supervising Modality Transitions via Stepwise Reinforcement",
+    "cat": "ai",
+    "summary": "arXiv:2606.12886v1 Announce Type: cross Abstract: Interleaved thinking, where a unified multimodal model alternates between textual reasoning and visual generation, has shown promise on spatial and physical tasks. However, in complex lon...",
+    "url": "https://arxiv.org/abs/2606.12886",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12896v1",
+    "title": "PolicyGuard: Towards Test-time and Step-level Adversary Defense for Reinforcement Learning Agent",
+    "cat": "ai",
+    "summary": "arXiv:2606.12896v1 Announce Type: cross Abstract: While real-world applications of reinforcement learning (RL) are becoming increasingly popular, the security of RL systems deserve more attention and exploration. In particular, recent wo...",
+    "url": "https://arxiv.org/abs/2606.12896",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12910v1",
+    "title": "Bounding Boxes as Goals: Language-Conditioned Grasping via Neuro-Symbolic Planning",
+    "cat": "ai",
+    "summary": "arXiv:2606.12910v1 Announce Type: cross Abstract: For robotics to be effectively integrated into household or industrial environments, machines must adapt to natural-language prompts in real time. Although Vision-Language Models (VLMs) h...",
+    "url": "https://arxiv.org/abs/2606.12910",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12918v1",
+    "title": "MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems",
+    "cat": "ai",
+    "summary": "arXiv:2606.12918v1 Announce Type: cross Abstract: Hierarchical multi-agent systems (MAS) are rapidly being deployed in high-stakes workflows across domains such as finance and software engineering. In these systems, safety and security a...",
+    "url": "https://arxiv.org/abs/2606.12918",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12921v1",
+    "title": "LoRA-Muon: Spectral Steepest Descent on the Low-Rank Manifold",
+    "cat": "ai",
+    "summary": "arXiv:2606.12921v1 Announce Type: cross Abstract: Low-Rank Adaptation (LoRA) significantly reduces compute and memory costs for finetuning Deep Learning models but is often harder to tune than dense training: when using factor-wise optim...",
+    "url": "https://arxiv.org/abs/2606.12921",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12923v1",
+    "title": "Order Is Not Control",
+    "cat": "ai",
+    "summary": "arXiv:2606.12923v1 Announce Type: cross Abstract: AI alignment, interpretability, steering, and neural perturbation studies identify order-inducing objects. We argue that order is not control. Control requires a receiver-gated response l...",
+    "url": "https://arxiv.org/abs/2606.12923",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12936v1",
+    "title": "An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+    "cat": "ai",
+    "summary": "arXiv:2606.12936v1 Announce Type: cross Abstract: Wet-lab robots can improve the reproducibility, throughput, and safety of biomedical experiments, but scaling their learning requires customizable simulators for safe and reproducible tas...",
+    "url": "https://arxiv.org/abs/2606.12936",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12977v1",
+    "title": "Efficient, Robust, and Anti-Collusion Fingerprinting of Image Diffusion Models",
+    "cat": "ai",
+    "summary": "arXiv:2606.12977v1 Announce Type: cross Abstract: Model fingerprinting, embedding user-specific identifiers (fingerprints) into generated outputs, has recently emerged as a popular solution to protect the intellectual property rights (IP...",
+    "url": "https://arxiv.org/abs/2606.12977",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12987v1",
+    "title": "Diffusion Transformer World-Action Model for AV Scene Prediction",
+    "cat": "ai",
+    "summary": "arXiv:2606.12987v1 Announce Type: cross Abstract: Action-conditioned world models let an autonomous vehicle predict future camera scenes from its own planned controls, enabling planning and simulation without real-world rollouts, but at ...",
+    "url": "https://arxiv.org/abs/2606.12987",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.12988v1",
+    "title": "A Machine Learning Framework for Real-Time Personalized Ergonomic Pose Analysis",
+    "cat": "ai",
+    "summary": "arXiv:2606.12988v1 Announce Type: cross Abstract: This paper introduces a new methodology for real-time prediction of ergonomic and non-ergonomic human poses using volumetric video data in three dimensions. Although the methodology was d...",
+    "url": "https://arxiv.org/abs/2606.12988",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13007v1",
+    "title": "scLLM-DSC: LLM-Knowledge Enhanced Cross-Modal Deep Structural Clustering for Single-Cell RNA Sequencing",
+    "cat": "ai",
+    "summary": "arXiv:2606.13007v1 Announce Type: cross Abstract: Clustering is fundamental to scRNA-seq analysis, serving as a cornerstone for identifying cell populations and resolving tissue heterogeneity. However, existing methods focus on mining nu...",
+    "url": "https://arxiv.org/abs/2606.13007",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13024v1",
+    "title": "CausalMoE: A Billion-Scale Multimodal Foundation Model for Granger Causal Discovery with Pattern-Routed Heterogeneous Experts",
+    "cat": "ai",
+    "summary": "arXiv:2606.13024v1 Announce Type: cross Abstract: Granger Causal Discovery (GCD) is fundamental for analyzing temporal dependencies in complex systems. However, existing neural GCD methods predominantly rely on a \"one-size-fits-all\" para...",
+    "url": "https://arxiv.org/abs/2606.13024",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13026v1",
+    "title": "Democracy in the Era of Artificial Intelligence",
+    "cat": "ai",
+    "summary": "arXiv:2606.13026v1 Announce Type: cross Abstract: Interfacing Artificial Intelligence (AI) with democracy is one of the most profound challenges of our times. On the one hand, AI comes with opportunities to overcome long-standing challen...",
+    "url": "https://arxiv.org/abs/2606.13026",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13035v1",
+    "title": "TetherCache: Stabilizing Autoregressive Long-Form Video Generation with Gated Recall and Trusted Alignment",
+    "cat": "ai",
+    "summary": "arXiv:2606.13035v1 Announce Type: cross Abstract: Autoregressive video diffusion models provide a natural formulation for streaming and variable-length video generation by conditioning newly generated frames on previously generated conte...",
+    "url": "https://arxiv.org/abs/2606.13035",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13039v1",
+    "title": "Fault Lines: Navigating Ethics and Responsible AI Where National Policy Meets Local Practice in Public Sector Transformation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13039v1 Announce Type: cross Abstract: The UK government has adopted a pro-AI stance to help transform public service delivery in the face of severe financial pressures, but the path to translate this vision into responsible A...",
+    "url": "https://arxiv.org/abs/2606.13039",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13053v1",
+    "title": "EA-WM: Event-Aware World Models with Task-Specification Grounding for Long-Horizon Manipulation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13053v1 Announce Type: cross Abstract: Pretrained-feature world models provide a useful substrate for robot imagination, but visual or latent prediction alone does not determine whether an imagined future satisfies task-releva...",
+    "url": "https://arxiv.org/abs/2606.13053",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13054v1",
+    "title": "TWLA: Achieving Ternary Weights and Low-Bit Activations for LLMs via Post-Training Quantization",
+    "cat": "ai",
+    "summary": "arXiv:2606.13054v1 Announce Type: cross Abstract: Large language models (LLMs) exhibit exceptional general language processing capabilities, but their memory and compute costs hinder deployment. Ternarization has emerged as a promising c...",
+    "url": "https://arxiv.org/abs/2606.13054",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13071v1",
+    "title": "\"Is This Not Enough?\": Asymmetries in Institutional Accountability and Collective Sensemaking in the Case of Canada's Algorithmic Visa Triage System",
+    "cat": "ai",
+    "summary": "arXiv:2606.13071v1 Announce Type: cross Abstract: This paper examines how algorithmic accountability in Canada's visa system is articulated institutionally and experienced by applicants across borders. We analyzed Immigration, Refugees a...",
+    "url": "https://arxiv.org/abs/2606.13071",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13079v1",
+    "title": "The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems",
+    "cat": "ai",
+    "summary": "arXiv:2606.13079v1 Announce Type: cross Abstract: Nowadays, the autonomous execution of cyberattacks capable of causing substantial real-world harm is widely regarded as one of the critical red lines that frontier AI systems must not cro...",
+    "url": "https://arxiv.org/abs/2606.13079",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13081v1",
+    "title": "Emotional regulation improves deep learning-based image classification",
+    "cat": "ai",
+    "summary": "arXiv:2606.13081v1 Announce Type: cross Abstract: Emotion significantly influences cognition, enhancing memory and learning under certain conditions. Drawing on this principle, emotion-augmented deep learning investigates how affective s...",
+    "url": "https://arxiv.org/abs/2606.13081",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13097v1",
+    "title": "Functional Cache Grafting: Robust and Rapid Code-Policy Synthesis for Embodied Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.13097v1 Announce Type: cross Abstract: Code-writing large language models (CodeLLMs) generate executable code policies for embodied agents by translating natural language goals and environmental constraints into structured con...",
+    "url": "https://arxiv.org/abs/2606.13097",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13115v1",
+    "title": "G-Long: Graph-Enhanced Memory Management for Efficient Long-Term Dialogue Agents",
+    "cat": "ai",
+    "summary": "arXiv:2606.13115v1 Announce Type: cross Abstract: While Large Language Models (LLMs) have advanced open-domain dialogue systems, maintaining long-term consistency remains a challenge due to inherent limitations in long-context reasoning ...",
+    "url": "https://arxiv.org/abs/2606.13115",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13119v1",
+    "title": "MP3: Multi-Period Pattern Pre-training forSpatio-Temporal Forecasting",
+    "cat": "ai",
+    "summary": "arXiv:2606.13119v1 Announce Type: cross Abstract: Spatio-Temporal forecasting is crucial in diverse fields, such as transportation, climate, and energy. Urban spatio-temporal data exhibits temporal mirage: similar short-window inputs hav...",
+    "url": "https://arxiv.org/abs/2606.13119",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13121v1",
+    "title": "NaturalFlow: Reducing Disruptive Pauses for Natural Speech Flow in Simultaneous Speech-to-Speech Translation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13121v1 Announce Type: cross Abstract: Simultaneous speech-to-speech translation aims to enable near-real-time communication by minimizing latency, offering a compelling, real-time alternative to the high latency of consecutiv...",
+    "url": "https://arxiv.org/abs/2606.13121",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13125v1",
+    "title": "Select and Improve: Understanding the Mechanics of Post-Training for Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.13125v1 Announce Type: cross Abstract: Reinforcement learning has rapidly emerged as a key component in the training of reasoning and coding models, yet it remains poorly understood from a mechanistic perspective. We study how...",
+    "url": "https://arxiv.org/abs/2606.13125",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13126v1",
+    "title": "MiniPIC: Flexible Position-Independent Caching in &lt;100LOC",
+    "cat": "ai",
+    "summary": "arXiv:2606.13126v1 Announce Type: cross Abstract: Retrieval-augmented and agentic workloads repeatedly prefill recurring predictable structured inputs (which we call \"spans\") such as documents and code files. Yet, prefix caching in engin...",
+    "url": "https://arxiv.org/abs/2606.13126",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13135v1",
+    "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+    "cat": "ai",
+    "summary": "arXiv:2606.13135v1 Announce Type: cross Abstract: Purpose. To compare deep learning architectures and classification schemes for dermoscopic images of skin neoplasms and assess their generalization on transfer from open international dat...",
+    "url": "https://arxiv.org/abs/2606.13135",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13156v1",
+    "title": "Iterative Visual Thinking: Teaching Vision-Language Models Spatial Self-Correction through Visual Feedback",
+    "cat": "ai",
+    "summary": "arXiv:2606.13156v1 Announce Type: cross Abstract: Vision-language models (VLMs) achieve strong singleshot spatial grounding, yet lack any mechanism to observe and correct their own predictions. We find that naively prompting a VLM to ite...",
+    "url": "https://arxiv.org/abs/2606.13156",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13171v1",
+    "title": "NTS-CoT: Mitigating Hallucinations in LLM-based News Timeline Summarization with Chain-of-Thought Reasoning",
+    "cat": "ai",
+    "summary": "arXiv:2606.13171v1 Announce Type: cross Abstract: The rapid updates of online news make tracking event developments challenging, highlighting the need for timeline summarization (TLS). Hallucinations, where LLM-generated content deviates...",
+    "url": "https://arxiv.org/abs/2606.13171",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13177v1",
+    "title": "MemRefine: LLM-Guided Compression for Long-Term Agent Memory",
+    "cat": "ai",
+    "summary": "arXiv:2606.13177v1 Announce Type: cross Abstract: Large language model (LLM) agents are increasingly expected to operate over long-term interactions, where information from past dialogues must be preserved and recalled to support future ...",
+    "url": "https://arxiv.org/abs/2606.13177",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13179v1",
+    "title": "Modern analog computing for solving differential and matrix equations",
+    "cat": "ai",
+    "summary": "arXiv:2606.13179v1 Announce Type: cross Abstract: In recent years, driven by the computational demands of data-intensive applications such as artificial intelligence and scientific computing, analog computing has gained renewed interest....",
+    "url": "https://arxiv.org/abs/2606.13179",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13188v1",
+    "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+    "cat": "ai",
+    "summary": "arXiv:2606.13188v1 Announce Type: cross Abstract: Building patient-specific cardiac models sits at the heart of precision cardiology, yet getting those models into clinical use keeps running into the same wall: mesh generation is slow, m...",
+    "url": "https://arxiv.org/abs/2606.13188",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13222v1",
+    "title": "Proprioceptive-visual correspondence enables self-other distinction in humanoid robots",
+    "cat": "ai",
+    "summary": "arXiv:2606.13222v1 Announce Type: cross Abstract: Distinguishing self from others is a prerequisite for social intelligence, yet humanoid robots that increasingly share workspaces with humans still lack this ability. Here we show that a ...",
+    "url": "https://arxiv.org/abs/2606.13222",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13233v1",
+    "title": "ReSET: Accurate Latency-Critical NVFP4 Reasoning via Step-Aware Temperature Scaling",
+    "cat": "ai",
+    "summary": "arXiv:2606.13233v1 Announce Type: cross Abstract: Large reasoning models (LRMs) improve complex problem-solving by generating long intermediate reasoning traces, but this substantially increases inference costs. NVFP4 inference offers a ...",
+    "url": "https://arxiv.org/abs/2606.13233",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13236v1",
+    "title": "Decoding Insect Song: A Multitask Semisupervised Orthoptera Bioacoustic Classifier",
+    "cat": "ai",
+    "summary": "arXiv:2606.13236v1 Announce Type: cross Abstract: Passive acoustic monitoring holds great promise for ecological inference, yet existing automated tools are typically narrowly trained and non-transferable. We address these limitations wi...",
+    "url": "https://arxiv.org/abs/2606.13236",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13239v1",
+    "title": "ComAct: Reframing Professional Software Manipulation via COM-as-Action Paradigm",
+    "cat": "ai",
+    "summary": "arXiv:2606.13239v1 Announce Type: cross Abstract: Existing computer-use agents remain fundamentally limited in professional software manipulation: GUI-based agents suffer from fragile visual grounding and long-horizon error accumulation,...",
+    "url": "https://arxiv.org/abs/2606.13239",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13240v1",
+    "title": "Towards More General Control of Diffusion Models Using Jeffrey Guidance",
+    "cat": "ai",
+    "summary": "arXiv:2606.13240v1 Announce Type: cross Abstract: A key strength of diffusion models lies in their flexibility, since their outputs can be controlled at sampling time through guidance. However, beyond simple cases such as conditional sam...",
+    "url": "https://arxiv.org/abs/2606.13240",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13253v1",
+    "title": "Towards Personalized Federated Learning for Dysarthric Speech Recognition",
+    "cat": "ai",
+    "summary": "arXiv:2606.13253v1 Announce Type: cross Abstract: Speech recognition is challenging for dysarthric speakers. While federated learning (FL)-based ASR can be an effective tool for protecting privacy, it suffers from heterogeneity issues ca...",
+    "url": "https://arxiv.org/abs/2606.13253",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  },
+  {
+    "id": "oai_arXiv.org_2606.13256v1",
+    "title": "Humor Style Drives Laughter, Topic Shapes Acceptability: Evaluating Bilingual Personal and Political Robot-Delivered AI Jokes",
+    "cat": "ai",
+    "summary": "arXiv:2606.13256v1 Announce Type: cross Abstract: Humor plays a central role in human social relationships, and recent advances in computational humor create new opportunities for integrating humor into human-robot interaction (HRI). Whi...",
+    "url": "https://arxiv.org/abs/2606.13256",
+    "image": "",
+    "pubDate": "2026-06-12T04:00:00.000Z"
+  }
 ]

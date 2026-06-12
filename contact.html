@@ -10,51 +10,79 @@
     <link rel="stylesheet" href="styles.css">
     <title>Pacmon Labs | Contact</title>
 </head>
-<body class="text-slate-200 antialiased selection:bg-cyan-500 selection:text-slate-900">
+<body class="bg-[#050505] text-slate-200 antialiased selection:bg-cyan-500 selection:text-slate-900">
     <div id="shared-nav"></div>
 
     <main class="pt-28">
         <section class="max-w-7xl mx-auto px-6 pb-20">
-            <div class="space-y-6 text-center">
-                <p class="text-xs uppercase tracking-[0.35em] text-cyan-300">Contact</p>
-                <h1 class="text-5xl md:text-6xl font-black text-white">Start the conversation.</h1>
-                <p class="max-w-3xl mx-auto text-slate-400">Get the info you need quickly with a dedicated contact page and easy navigation.</p>
-            </div>
+            <header class="mb-8">
+                <p class="text-[10px] uppercase font-mono text-cyan-300">CONTACT</p>
+                <h1 class="mt-3 text-4xl md:text-5xl font-extrabold text-white uppercase tracking-tighter border-l-4 border-cyan-500 pl-4">Start the conversation</h1>
+                <p class="mt-4 text-slate-400 leading-relaxed max-w-3xl">Pacmon Labs helps teams harden systems, incubate secure products, and provide advisory services. Choose Business Inquiries or Student Collaboration below to begin.</p>
+            </header>
 
-            <div class="mt-12">
-                <div class="flex flex-wrap gap-3 justify-center mb-8">
-                    <button class="tab-button active" data-section="contact" data-tab="email">Email</button>
-                    <button class="tab-button" data-section="contact" data-tab="location">Location</button>
-                    <button class="tab-button" data-section="contact" data-tab="process">How we work</button>
-                </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <!-- Left: Overview + Business Inquiries -->
+                <section class="md:col-span-2 bg-[#0b1120] p-8 border border-slate-800 rounded-lg">
+                    <span class="text-[10px] uppercase font-mono text-slate-400">BUSINESS INQUIRIES</span>
+                    <h2 class="mt-3 text-2xl font-bold text-white tracking-tighter border-l-4 border-cyan-500 pl-4">Work with Pacmon Labs</h2>
+                    <p class="mt-4 text-slate-300 leading-relaxed">We partner with product teams and enterprises to provide incubation, hardening, and advisory services focused on secure software delivery and resilience engineering. Tell us about your goals and timeline.</p>
 
-                <div class="tab-panel active" data-section="contact" data-tab="email">
-                    <div class="glass-panel neon-border rounded-[2rem] p-10">
-                        <h2 class="text-3xl font-semibold text-white mb-4">Email</h2>
-                        <p class="text-slate-400 mb-4">Reach out to start a project conversation or ask about our work.</p>
-                        <a href="mailto:pacman.labs@gmail.com" class="text-cyan-300 font-semibold hover:text-cyan-200">pacman.labs@gmail.com</a>
+                    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="bg-[#0b1120] p-6 border border-slate-800 rounded-lg">
+                            <span class="text-[10px] uppercase font-mono text-slate-400">SERVICE</span>
+                            <h3 class="mt-2 text-white font-semibold tracking-tighter">Incubation</h3>
+                            <p class="mt-2 text-slate-400 text-sm leading-relaxed">From prototype to secure MVP—engineering, threat modeling, and deployment hardening.</p>
+                        </div>
+
+                        <div class="bg-[#0b1120] p-6 border border-slate-800 rounded-lg">
+                            <span class="text-[10px] uppercase font-mono text-slate-400">SERVICE</span>
+                            <h3 class="mt-2 text-white font-semibold tracking-tighter">Hardening</h3>
+                            <p class="mt-2 text-slate-400 text-sm leading-relaxed">Architecture reviews, CI/CD security, and incident preparedness for production systems.</p>
+                        </div>
+
+                        <div class="bg-[#0b1120] p-6 border border-slate-800 rounded-lg">
+                            <span class="text-[10px] uppercase font-mono text-slate-400">SERVICE</span>
+                            <h3 class="mt-2 text-white font-semibold tracking-tighter">Advisory</h3>
+                            <p class="mt-2 text-slate-400 text-sm leading-relaxed">Strategic guidance, compliance planning, and community-led security research.</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="tab-panel" data-section="contact" data-tab="location">
-                    <div class="glass-panel neon-border rounded-[2rem] p-10">
-                        <h2 class="text-3xl font-semibold text-white mb-4">Location</h2>
-                        <p class="text-slate-400 mb-4">Based in Tiruppur, India, with a focus on distributed security and engineering teams.</p>
-                        <p class="text-slate-300 font-semibold">Tiruppur, India</p>
+                    <div class="mt-8">
+                        <p class="text-slate-400 text-sm">Prefer direct email? <a href="mailto:contact@pacmon.labs" class="text-cyan-500 font-semibold">contact@pacmon.labs</a></p>
                     </div>
-                </div>
+                </section>
 
-                <div class="tab-panel" data-section="contact" data-tab="process">
-                    <div class="glass-panel neon-border rounded-[2rem] p-10">
-                        <h2 class="text-3xl font-semibold text-white mb-4">How we work</h2>
-                        <p class="text-slate-400 mb-4">Quick intro calls, clear proposals, and collaborative delivery so every step stays easy to follow.</p>
-                        <ul class="list-disc list-inside space-y-3 text-slate-400">
-                            <li>Start with a discovery call.</li>
-                            <li>Review the technical proposal.</li>
-                            <li>Begin secure delivery and handoff.</li>
-                        </ul>
-                    </div>
-                </div>
+                <!-- Right: Contact Form / Student Collaboration -->
+                <aside class="bg-[#0b1120] p-8 border border-slate-800 rounded-lg">
+                    <span class="text-[10px] uppercase font-mono text-slate-400">STUDENT COLLAB</span>
+                    <h3 class="mt-2 text-white text-xl font-bold tracking-tighter border-l-4 border-cyan-500 pl-4">Student Collaboration</h3>
+                    <p class="mt-3 text-slate-300 text-sm leading-relaxed">We welcome research collaborations, internships, and mentorships. Share your interests and links to your work.</p>
+
+                    <form class="mt-6 space-y-4" method="post" action="#" aria-label="Contact form">
+                        <div>
+                            <label class="text-xs text-slate-400 block mb-1">Full name</label>
+                            <input class="w-full bg-transparent border border-slate-800 rounded px-3 py-2 text-slate-100" type="text" name="name" placeholder="Jane Doe">
+                        </div>
+
+                        <div>
+                            <label class="text-xs text-slate-400 block mb-1">Email</label>
+                            <input class="w-full bg-transparent border border-slate-800 rounded px-3 py-2 text-slate-100" type="email" name="email" placeholder="you@domain.com">
+                        </div>
+
+                        <div>
+                            <label class="text-xs text-slate-400 block mb-1">Message</label>
+                            <textarea class="w-full bg-transparent border border-slate-800 rounded px-3 py-2 text-slate-100 resize-y" name="message" rows="4" placeholder="Tell us a bit about your project or collaboration"></textarea>
+                        </div>
+
+                        <div class="flex items-center justify-between">
+                            <button type="submit" class="inline-flex items-center gap-2 bg-cyan-500 text-slate-900 px-4 py-2 rounded font-semibold">Send</button>
+                            <small class="text-[10px] uppercase font-mono text-slate-500">No sensitive secrets</small>
+                        </div>
+                    </form>
+
+                    <p class="mt-6 text-[12px] text-slate-500">We do not accept attachments via this form. For sensitive data, request a secure intake link during the initial reply.</p>
+                </aside>
             </div>
         </section>
     </main>

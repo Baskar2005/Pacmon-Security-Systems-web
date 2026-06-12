@@ -14,60 +14,59 @@
     <div id="shared-nav"></div>
 
     <main>
-        <section class="py-32">
-            <div class="max-w-7xl mx-auto px-6">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-4xl md:text-5xl font-semibold tracking-tight text-[#06b6d4]">What We Do</h1>
-                    <p class="mt-4 leading-relaxed text-slate-300 max-w-4xl mx-auto">Practical services that pair secure software with human-centered operations.</p>
+        <section id="service-container" class="w-full py-16">
+            <div class="max-w-[1440px] mx-auto px-6">
+                <header class="text-center mb-8">
+                    <h1 class="text-3xl md:text-4xl font-extrabold text-white">Enterprise Services — Pacmon Labs</h1>
+                    <p class="mt-2 text-slate-400 max-w-2xl mx-auto">Hardened, compliance-aware solutions and strategic advisory to reduce risk, accelerate secure delivery, and operationalize detection & response.</p>
+                </header>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Pillar 1: Secure Software & AI -->
+                    <article class="bg-[#0b1120] border border-slate-800 p-8 rounded-lg hover:border-cyan-500 transition-all">
+                        <div class="text-[10px] uppercase font-mono tracking-widest text-cyan-500">Secure Software & AI</div>
+                        <h3 class="mt-3 text-xl font-bold text-white">Secure development, ML safety, and delivery</h3>
+
+                        <ul class="mt-4 list-disc pl-4 space-y-3 text-slate-300">
+                            <li><strong>Secure SDLC & Threat Modeling</strong> — Embed threat-driven design and automated checks to reduce vulnerability backlog and accelerate secure releases.</li>
+                            <li><strong>Application Pentest (SAST/DAST)</strong> — Business-focused testing that reduces exploitable surface and informs prioritized remediation for compliance auditors.</li>
+                            <li><strong>Container & Runtime Security</strong> — Harden container images and runtime policies to cut cloud incident costs and shorten mean-time-to-recovery.</li>
+                            <li><strong>Secure AI Development</strong> — Governance and red-team exercises for models and data pipelines; minimizes model drift, data leakage, and regulatory exposure.</li>
+                            <li><strong>CI/CD Hardening & Policy Automation</strong> — Automated gates and IaC scanning to enforce policy, reduce human error, and speed audit readiness.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Pillar 2: Defensive Infrastructure & Hardening -->
+                    <article class="bg-[#0b1120] border border-slate-800 p-8 rounded-lg hover:border-cyan-500 transition-all">
+                        <div class="text-[10px] uppercase font-mono tracking-widest text-cyan-500">Defensive Infrastructure</div>
+                        <h3 class="mt-3 text-xl font-bold text-white">Hardened infrastructure and resilient platforms</h3>
+
+                        <ul class="mt-4 list-disc pl-4 space-y-3 text-slate-300">
+                            <li><strong>OS & Network Hardening</strong> — Configurations and automated baselines that reduce exploitable vectors and lower operational incident risk.</li>
+                            <li><strong>Zero-Trust Network Architecture</strong> — Segmentation and identity-driven access controls to contain breaches and protect high-value assets.</li>
+                            <li><strong>Cloud Security & Compliance</strong> — Compliance-aware cloud posture management to reduce audit friction and cloud spend from insecure defaults.</li>
+                            <li><strong>Infrastructure as Code Assurance</strong> — Policy as code and drift detection to keep environments reproducible, auditable, and resilient.</li>
+                            <li><strong>Backup & Recovery Validation</strong> — Automated snapshot validation and restore drills to reduce downtime and meet RTO/RPO obligations.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Pillar 3: Security Operations & Advisory -->
+                    <article class="bg-[#0b1120] border border-slate-800 p-8 rounded-lg hover:border-cyan-500 transition-all">
+                        <div class="text-[10px] uppercase font-mono tracking-widest text-cyan-500">Security Ops & Advisory</div>
+                        <h3 class="mt-3 text-xl font-bold text-white">Detection, response, and strategic governance</h3>
+
+                        <ul class="mt-4 list-disc pl-4 space-y-3 text-slate-300">
+                            <li><strong>Managed Detection & Response (MDR)</strong> — 24/7 monitoring and automated playbooks to reduce breach dwell time and operational load.</li>
+                            <li><strong>Incident Response & Forensics</strong> — Rapid containment and root-cause analysis to limit business impact and support regulatory reporting.</li>
+                            <li><strong>Threat Hunting & Intelligence</strong> — Proactive investigations and tailored indicators that reduce high-risk exposure for critical systems.</li>
+                            <li><strong>Risk Management & Compliance Advisory</strong> — Strategic roadmaps to align security controls with business objectives and regulatory frameworks.</li>
+                            <li><strong>Security Program Modernization</strong> — Operationalize measurable KPIs, automation, and runbooks to make security repeatable and audit-ready.</li>
+                        </ul>
+                    </article>
                 </div>
 
-                <div class="mt-12 grid md:grid-cols-3 gap-16">
-                    <div class="bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold tracking-tight text-[#06b6d4]">Billing Software</h3>
-                        <p class="mt-3 leading-relaxed text-slate-200 max-w-4xl">Reliable invoicing, subscriptions, and receipts with privacy-first defaults.</p>
-                        <ul class="mt-4 list-disc pl-5 space-y-2 text-slate-300 leading-relaxed">
-                            <li>PCI-aware checkout flows</li>
-                            <li>Integrations with accounting tools</li>
-                            <li>Audit-ready logs and receipts</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold tracking-tight text-[#06b6d4]">Secure Websites</h3>
-                        <p class="mt-3 leading-relaxed text-slate-200 max-w-4xl">Fast, accessible sites with hardened hosting and automated deploys.</p>
-                        <ul class="mt-4 list-disc pl-5 space-y-2 text-slate-300 leading-relaxed">
-                            <li>HTTPS, HSTS, CSP</li>
-                            <li>Dependency and content monitoring</li>
-                            <li>Staged rollouts and backups</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold tracking-tight text-[#06b6d4]">Security Operations</h3>
-                        <p class="mt-3 leading-relaxed text-slate-200 max-w-4xl">Audits, incident response, and coaching that scale with small teams.</p>
-                        <ul class="mt-4 list-disc pl-5 space-y-2 text-slate-300 leading-relaxed">
-                            <li>Low-friction security assessments</li>
-                            <li>Rapid incident playbooks</li>
-                            <li>On-demand coaching and runbooks</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="mt-20 grid md:grid-cols-2 gap-16">
-                    <div class="bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold tracking-tight text-[#06b6d4]">Methodology</h3>
-                        <p class="mt-3 leading-relaxed text-slate-200 max-w-4xl">Discovery, secure build, validation, and handoff — focused on minimizing disruption and technical debt.</p>
-                        <ol class="mt-4 list-decimal pl-5 space-y-2 text-slate-300 leading-relaxed">
-                            <li>Discovery & risk assessment</li>
-                            <li>Focused secure implementation</li>
-                            <li>Validation, testing & handoff</li>
-                        </ol>
-                    </div>
-
-                    <div class="bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-8">
-                        <h3 class="text-xl font-semibold tracking-tight text-[#06b6d4]">Delivery Fit for Small Teams</h3>
-                        <p class="mt-3 leading-relaxed text-slate-200 max-w-4xl">We prioritize low operational overhead: small releases, clear runbooks, and automated checks to keep systems healthy.</p>
-                    </div>
+                <div class="mt-8 text-right">
+                    <a href="/contact.html" class="inline-block px-5 py-2 rounded-full bg-cyan-500 text-slate-950 font-semibold hover:opacity-95">Talk to an engineer</a>
                 </div>
             </div>
         </section>

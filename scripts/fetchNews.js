@@ -85,9 +85,18 @@ async function fetchFeedWithRetry(url, attempts = 3){
 
 (async function main(){
   const feeds = await loadFeeds();
+  // build allowed hosts from feeds.json to ensure we only fetch trusted hosts
+  const ALLOWED_HOSTS = feeds.map(ff => {
+    try{ return new URL(ff.url).hostname.toLowerCase(); }catch(e){ return null; }
+  }).filter(Boolean);
   const results = [];
   for(const f of feeds){
     try{
+      // validate url and trust
+      let parsed;
+      try{ parsed = new URL(f.url); }catch(e){ console.warn('Invalid feed URL, skipping', f.url); continue; }
+      if(parsed.protocol !== 'https:') { console.warn('Skipping non-HTTPS feed', f.url); continue; }
+      if(!ALLOWED_HOSTS.includes(parsed.hostname.toLowerCase())) { console.warn('Skipping untrusted feed host', f.url); continue; }
       console.log('Fetching', f.url);
       const feed = await fetchFeedWithRetry(f.url);
       const items = feed.items || [];
@@ -133,7 +142,16 @@ async function fetchFeedWithRetry(url, attempts = 3){
     let imagePath = '';
     if(o.rawImage){
       try{
-        imagePath = await downloadImage(o.rawImage, o.id);
+        // only download images over HTTPS and from allowed hosts
+        try{
+          const pu = new URL(o.rawImage);
+          if(pu.protocol === 'https:' && ALLOWED_HOSTS.includes(pu.hostname.toLowerCase())){
+            imagePath = await downloadImage(o.rawImage, o.id);
+          } else {
+            // skip external/untrusted images
+            imagePath = '';
+          }
+        }catch(e){ imagePath = ''; }
       }catch(e){ imagePath = ''; }
     }
     normalized.push({id:o.id,title:o.title,cat:o.cat,summary:o.summary,url:o.url,image:imagePath || '',pubDate:o.pubDate});

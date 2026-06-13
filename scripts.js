@@ -14,9 +14,9 @@ const NAV_ITEMS = [
     { href: '/index.html', label: 'Home' },
     { href: '/about.html', label: 'About' },
     { href: '/services.html', label: 'Services' },
-    { href: '/projects.html', label: 'Projects' },
+
     { href: '/wiki.html', label: 'Wiki' },
-    { href: '/team.html', label: 'Team' },
+
     { href: '/students.html', label: 'Students' },
     { href: '/contact.html', label: 'Contact' }
 ];
@@ -46,7 +46,8 @@ function createNav() {
     });
 
     const cta = document.createElement('a');
-    cta.href = 'mailto:pacman.labs@gmail.com';
+    cta.href = '/contact.html';
+
     cta.className = 'rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm font-semibold text-cyan-300 hover:bg-cyan-500 hover:text-slate-950 transition';
     cta.textContent = 'Start a Project';
 
@@ -61,7 +62,7 @@ function createNav() {
 function createFooter() {
     const footer = document.createElement('footer');
     footer.className = 'border-t border-slate-800 py-8 text-center footer-text text-sm font-mono';
-    footer.innerHTML = '<p>Pacmon Labs © 2026 — Modern security delivered with clarity.</p>';
+    footer.innerHTML = '<p>Pacmon Security &amp; Solutions © 2026</p>';
     return footer;
 }
 
@@ -99,6 +100,9 @@ function insertSharedLayout() {
 document.addEventListener('DOMContentLoaded', () => {
     insertSharedLayout();
 
+    // Temporal bot counter-measure: mark page readiness timestamp.
+    window.__pacmonPageInitTs = Date.now();
+
     // Event delegation for tab buttons to avoid attaching many listeners
     document.addEventListener('click', (e) => {
         const btn = e.target.closest('.tab-button');
@@ -108,3 +112,33 @@ document.addEventListener('DOMContentLoaded', () => {
         if (section && tab) switchTab(section, tab);
     });
 });
+
+// Submission temporal validation (contact portal hardening)
+// Reject/neutralize submission triggered faster than 2000ms after init.
+function __pacmonTemporalGateAllow() {
+    const initTs = window.__pacmonPageInitTs;
+    if (!initTs) return false;
+    return (Date.now() - initTs) >= 2000;
+}
+
+// Wrap executeFormSubmission if present on the contact page.
+(function () {
+    const original = window.executeFormSubmission;
+    if (typeof original !== 'function') return;
+
+    window.executeFormSubmission = function () {
+        try {
+            if (!__pacmonTemporalGateAllow()) {
+                const form = document.getElementById('pacmon-intake-form');
+                if (form) {
+                    // Neutralize fast-bot attempts; keep UX quiet.
+                    form.setAttribute('data-submission-blocked', 'temporal');
+                }
+                return;
+            }
+        } catch (e) {
+            return;
+        }
+        return original.apply(this, arguments);
+    };
+})();

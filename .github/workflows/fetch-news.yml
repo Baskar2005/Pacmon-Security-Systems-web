@@ -27,16 +27,6 @@ jobs:
       - name: Run news aggregator
         run: npm run fetch-news
 
-      - name: Debug: show news file
-        run: |
-          echo "--- news/data.json ---"
-          ls -la news || true
-          if [ -f news/data.json ]; then
-            echo "HEAD of news/data.json:" && head -n 50 news/data.json || true
-          else
-            echo "news/data.json not found"
-          fi
-
       - name: Commit updated feed
         run: |
           git config user.name "github-actions[bot]"
@@ -48,3 +38,4 @@ jobs:
           fi
           git commit -m "chore: update news feed and assets [skip ci]"
           git push
+

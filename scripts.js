@@ -27,37 +27,63 @@ function createNav() {
     nav.className = 'fixed inset-x-0 top-0 z-50 py-4 glass-panel shadow-lg shadow-slate-950/20 backdrop-blur-xl';
 
     const inner = document.createElement('div');
-    inner.className = 'max-w-7xl mx-auto px-6 flex items-center justify-between gap-4';
+    // Mobile-first: stack brand + CTA vertically to prevent overflow.
+    // Desktop: switch to a single row.
+    inner.className = 'max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3';
 
     const brand = document.createElement('a');
     brand.href = '/index.html';
-    brand.className = 'flex items-center gap-3 nav-link';
+    brand.className = 'flex items-center gap-3 nav-link justify-center md:justify-start';
     brand.innerHTML = `<span class="w-3 h-3 rounded-full bg-cyan-400 pulse-dot"></span><span class="text-white font-bold tracking-widest text-sm">PACMON</span>`;
 
-    const linksWrap = document.createElement('div');
-    linksWrap.className = 'hidden md:flex items-center gap-8 text-sm font-semibold uppercase tracking-[0.2em] text-slate-300';
+    const cta = document.createElement('a');
+    cta.href = '/contact.html';
+    cta.className = 'rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm font-semibold text-cyan-300 hover:bg-cyan-500 hover:text-slate-950 transition md:justify-self-end self-center md:self-auto';
+    cta.textContent = 'Start a Project';
+
+    // Two-tier structure: swipeable link row under brand/CTA on mobile.
+    const linksRow = document.createElement('div');
+    linksRow.className = [
+        // Mobile swipe mechanics
+        'w-full',
+        'overflow-x-auto',
+        'whitespace-nowrap',
+        'no-scrollbar',
+        // Desktop: make it non-swipe and align in the row
+        'md:overflow-hidden md:whitespace-normal',
+        'flex items-center gap-8 text-sm font-semibold uppercase tracking-[0.2em] text-slate-300',
+
+        'pb-1',
+        // Keep it from collapsing on mobile
+        'justify-start'
+    ].join(' ');
 
     NAV_ITEMS.forEach(item => {
         const a = document.createElement('a');
         a.href = item.href;
         a.className = 'nav-link';
         a.textContent = item.label;
-        linksWrap.appendChild(a);
+        linksRow.appendChild(a);
     });
 
-    const cta = document.createElement('a');
-    cta.href = '/contact.html';
-
-    cta.className = 'rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm font-semibold text-cyan-300 hover:bg-cyan-500 hover:text-slate-950 transition';
-    cta.textContent = 'Start a Project';
-
+    // Desktop layout: show brand + links + CTA. Mobile layout: brand + CTA + swipe links.
     inner.appendChild(brand);
-    inner.appendChild(linksWrap);
     inner.appendChild(cta);
+
+    // Use a single linksRow node. On mobile it sits below brand+CTA and scrolls horizontally.
+    // On desktop it becomes the in-row link strip.
+    inner.appendChild(linksRow);
+
+    // Desktop: constrain layout to a single row and keep swipe container visually stable.
+    // (Mobile remains swipeable; desktop disables overflow-x via md:overflow-visible.)
+
+
+
     nav.appendChild(inner);
     fragment.appendChild(nav);
     return fragment;
 }
+
 
 function createFooter() {
     const footer = document.createElement('footer');

@@ -141,3 +141,13 @@ p {
     letter-spacing: 0.12em;
     color: var(--accent);
 }
+
+/* Hide scrollbars while keeping overflow/touch interaction intact */
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
